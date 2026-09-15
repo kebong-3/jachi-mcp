@@ -744,11 +744,23 @@ class OCFromQuery:
 
 
 def _serve_http() -> None:
+    """원격 모드로 기동. 호스팅 주소를 허용 목록에 넣어줘야 요청이 통과한다."""
     import uvicorn
+    from mcp.server.transport_security import TransportSecuritySettings
 
-    app = OCFromQuery(mcp.streamable_http_app())
-    port = int(os.environ.get("PORT", "8000"))
-    uvicorn.run(app, host="0.0.0.0", port=port)
+    allowed = [h.strip() for h in os.environ.get("ALLOWED_HOSTS", "*").split(",") if h.strip()]
+    origins = ["*"] if allowed == ["*"] else [f"https://{h}" for h in allowed] + allowed
+    security = TransportSecuritySettings(
+        enable_dns_rebinding_protection=(allowed != ["*"]),
+        allowed_hosts=allowed,
+        allowed_origins=origins,
+    )
+    app = OCFromQuery(mcp.streamable_http_app(
+        transport_security=security,
+        stateless_http=True,
+        host="0.0.0.0",
+    ))
+    uvicorn.run(app, host="0.0.0.0", port=int(os.environ.get("PORT", "8000")))
 
 
 if __name__ == "__main__":
