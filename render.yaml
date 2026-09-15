@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: jachibeopgyu-mcp
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python jachibeopgyu_mcp.py --http
+    envVars:
+      # 인증키는 여기 적지 말고 Render 화면에서 직접 입력합니다.
+      - key: LAW_OC
+        sync: false
+      - key: MCP_TRANSPORT
+        value: http
