@@ -1,14 +1,18 @@
 services:
   - type: web
-    name: uijeong-mcp
+    name: jachi-ordinance-review
     runtime: python
-    plan: free
     buildCommand: pip install -r requirements.txt
-    startCommand: python uijeong_mcp.py --http
+    startCommand: python jachibeopgyu_mcp.py --http
+    healthCheckPath: /health
     envVars:
-      - key: CLIK_API_KEY
+      - key: LAW_OC
         sync: false
-      - key: UIJEONG_PROFILE
-        value: full
-      - key: PYTHON_VERSION
-        value: 3.12.7
+      - key: MCP_API_TOKEN
+        generateValue: true
+      - key: MCP_HOST
+        value: 0.0.0.0
+      - key: MCP_PUBLIC_READ_ONLY
+        value: "false"
+      - key: ALLOW_EXTERNAL_LLM
+        value: "false"

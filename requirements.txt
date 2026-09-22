@@ -1,3 +1,3 @@
-mcp>=1.25,<2
-httpx>=0.27
-uvicorn>=0.30
+-r requirements-core.txt
+mcp>=1.28,<2
+uvicorn>=0.30,<1

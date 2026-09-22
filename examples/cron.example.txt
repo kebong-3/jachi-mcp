@@ -1,0 +1,6 @@
+# Example ONLY. This file does not install or start a task.
+# Set LAW_OC securely in the execution environment; NEVER put a key in a command-line URL.
+# Use a persistent local directory for SQLite. Schedule and timezone are operator choices.
+# Example: daily at 08:00 in the cron host's configured timezone.
+0 8 * * * cd /opt/jachi && /opt/jachi/.venv/bin/python -m jachi.cli watch --config /opt/jachi/watchlist.json --db /var/lib/jachi/snapshots.sqlite --out /var/lib/jachi/watch_result.json
+# Connect changed/unavailable outcomes to your institution-approved notification mechanism separately.

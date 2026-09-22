@@ -1,0 +1,2939 @@
+{
+  "schema_version": "2.0",
+  "version": "2.0.0-rc.1",
+  "report_id": "R-9864205c005f4cf2be07",
+  "generated_at": "2026-09-21T17:19:11.634059+00:00",
+  "project": "[가상 시연] 주민 돌봄서비스의 신청·선정 기준을 명확히 하고 중복지원 방지 및 성과평가 절차를 검토한다.",
+  "jurisdiction": "가상도 가상시",
+  "as_of": "2026-09-22",
+  "reasoning": "rules",
+  "documents": [
+    {
+      "kind": "ordinance",
+      "document_id": "user-8ad00e093946e956",
+      "title": "[가상] 가상도 가상시 돌봄 지원 조례",
+      "jurisdiction": "가상도 가상시",
+      "version": "",
+      "effective_date": "",
+      "promulgation_date": "",
+      "source_url": "",
+      "retrieved_at": "2026-09-21T17:19:11.601382+00:00",
+      "source_state": "user_provided",
+      "version_scope": "unknown",
+      "warnings": [
+        "사용자 제공 문서: 공식 원문·시행일·완전성은 검증되지 않았습니다."
+      ],
+      "department": "",
+      "phone": "",
+      "upstream_hash": "",
+      "identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+      "content_hash": "891cd543c5ac608db6a71ed86669f888eff97b54e976445ce10ca6339851a268",
+      "article_count": 3,
+      "supplement_count": 1,
+      "annex_count": 0
+    },
+    {
+      "kind": "ordinance",
+      "document_id": "user-f4dcc0440d78b277",
+      "title": "[가상] 가상도 비교시 돌봄 지원 조례",
+      "jurisdiction": "가상도 비교시",
+      "version": "",
+      "effective_date": "",
+      "promulgation_date": "",
+      "source_url": "",
+      "retrieved_at": "2026-09-21T17:19:11.601602+00:00",
+      "source_state": "user_provided",
+      "version_scope": "unknown",
+      "warnings": [
+        "사용자 제공 문서: 공식 원문·시행일·완전성은 검증되지 않았습니다."
+      ],
+      "department": "",
+      "phone": "",
+      "upstream_hash": "",
+      "identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+      "content_hash": "802db4c35ae593e05eb69a3b87a6cfe4dd7bfcf7fad96afa5f9619178de08d7e",
+      "article_count": 6,
+      "supplement_count": 1,
+      "annex_count": 0
+    },
+    {
+      "kind": "law",
+      "document_id": "user-b32112d4e3f3739d",
+      "title": "가상 돌봄지원법",
+      "jurisdiction": "",
+      "version": "",
+      "effective_date": "",
+      "promulgation_date": "",
+      "source_url": "",
+      "retrieved_at": "2026-09-21T17:19:11.601729+00:00",
+      "source_state": "user_provided",
+      "version_scope": "unknown",
+      "warnings": [
+        "사용자 제공 문서: 공식 원문·시행일·완전성은 검증되지 않았습니다."
+      ],
+      "department": "",
+      "phone": "",
+      "upstream_hash": "",
+      "identity": "law:user-b32112d4e3f3739d::unknown:8e1aaa282237cb60",
+      "content_hash": "8e1aaa282237cb602af1e17bc55005b5d3592d9b6a27ec37c2bc03386a28ff4d",
+      "article_count": 2,
+      "supplement_count": 1,
+      "annex_count": 0
+    }
+  ],
+  "searches": [],
+  "selection_log": [
+    {
+      "role": "baseline",
+      "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+      "selection": "user_provided_first_same_jurisdiction",
+      "warning": "사용자 제공 순서 기준: 원문 공식성·대상 적합성 미확인"
+    }
+  ],
+  "legal_review": {
+    "findings": [
+      {
+        "id": "R03",
+        "topic": "지원금·보조금",
+        "status": "review_required",
+        "priority": "normal",
+        "trigger_evidence_ids": [
+          "E-57bf2d83475d368ab69a",
+          "E-249ce08be2478fbac8f7"
+        ],
+        "triggered_by_project": false,
+        "action": "지방재정·지방보조금 법령, 공익성·지원근거·중복지원·집행절차 확인",
+        "rule_basis_type": "screening_checklist_not_legal_determination",
+        "method_reference": "https://opinion.lawmaking.go.kr/lmKnlg/loPlanGud"
+      },
+      {
+        "id": "R04",
+        "topic": "사회보장 신설·변경",
+        "status": "review_required",
+        "priority": "normal",
+        "trigger_evidence_ids": [
+          "E-f6484512bcfd31e4f236",
+          "E-621e2df55ec0df45c59f",
+          "E-57bf2d83475d368ab69a",
+          "E-c83e650a52f943b3cb00",
+          "E-8d3ab6a793e04f7a8054",
+          "E-249ce08be2478fbac8f7",
+          "E-5f56e57e7dca288da728"
+        ],
+        "triggered_by_project": true,
+        "action": "사회보장제도 신설·변경 협의 대상 여부 및 협의 진행상태 확인",
+        "rule_basis_type": "screening_checklist_not_legal_determination",
+        "method_reference": "https://opinion.lawmaking.go.kr/lmKnlg/loPlanGud"
+      },
+      {
+        "id": "R11",
+        "topic": "중복·충돌",
+        "status": "review_required",
+        "priority": "normal",
+        "trigger_evidence_ids": [
+          "E-f6484512bcfd31e4f236",
+          "E-c83e650a52f943b3cb00"
+        ],
+        "triggered_by_project": false,
+        "action": "우리 자치법규·상위법의 정의·적용대상·위원회·지원기준 중복 확인",
+        "rule_basis_type": "screening_checklist_not_legal_determination",
+        "method_reference": "https://opinion.lawmaking.go.kr/lmKnlg/loPlanGud"
+      },
+      {
+        "id": "R12",
+        "topic": "계획·평가",
+        "status": "review_required",
+        "priority": "normal",
+        "trigger_evidence_ids": [
+          "E-2ff748c82f30a1dcd2ee"
+        ],
+        "triggered_by_project": true,
+        "action": "주기·주체·결과활용·공개범위·추가 행정부담 확인",
+        "rule_basis_type": "screening_checklist_not_legal_determination",
+        "method_reference": "https://opinion.lawmaking.go.kr/lmKnlg/loPlanGud"
+      }
+    ],
+    "explicit_references": [
+      {
+        "law_title": "가상 돌봄지원법",
+        "article": "제5조의2",
+        "paragraph": "",
+        "item": "",
+        "quote": "「가상 돌봄지원법」 제5조의2"
+      }
+    ],
+    "unresolved_short_references": false,
+    "legal_conclusion": "자동 적법/위법 판정 없음. 규칙 탐지 여부와 법적 결론을 구분하세요.",
+    "negative_result_warning": "단서가 발견되지 않아도 검토 항목이 불필요하거나 적법하다는 뜻이 아닙니다.",
+    "reference_checks": [
+      {
+        "law_title": "가상 돌봄지원법",
+        "article": "제5조의2",
+        "paragraph": "",
+        "item": "",
+        "quote": "「가상 돌봄지원법」 제5조의2",
+        "versions": [
+          {
+            "document_identity": "law:user-b32112d4e3f3739d::unknown:8e1aaa282237cb60",
+            "status": "article_present",
+            "evidence_id": "E-3f4110a6b699152a7bf2",
+            "temporal": {
+              "state": "effective_date_unknown",
+              "as_of": "2026-09-22",
+              "version_current_verified": false,
+              "caveat": "시행일이 과거라는 사실만으로 해당 기준일의 현행본임이 증명되지 않습니다. 후속개정·조문별 시행일·부칙을 확인하세요."
+            },
+            "source_state": "user_provided",
+            "subdivision_status": "not_requested"
+          }
+        ],
+        "warning": "조문 존재 확인은 인용 취지의 정확성·사업 근거·위임 적합성 검증과 다릅니다."
+      }
+    ]
+  },
+  "comparison": {
+    "baseline": {
+      "kind": "ordinance",
+      "document_id": "user-8ad00e093946e956",
+      "title": "[가상] 가상도 가상시 돌봄 지원 조례",
+      "jurisdiction": "가상도 가상시",
+      "version": "",
+      "effective_date": "",
+      "promulgation_date": "",
+      "source_url": "",
+      "retrieved_at": "2026-09-21T17:19:11.601382+00:00",
+      "source_state": "user_provided",
+      "version_scope": "unknown",
+      "warnings": [
+        "사용자 제공 문서: 공식 원문·시행일·완전성은 검증되지 않았습니다."
+      ],
+      "department": "",
+      "phone": "",
+      "upstream_hash": "",
+      "identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+      "content_hash": "891cd543c5ac608db6a71ed86669f888eff97b54e976445ce10ca6339851a268",
+      "article_count": 3,
+      "supplement_count": 1,
+      "annex_count": 0
+    },
+    "comparisons": [
+      {
+        "peer_document": {
+          "kind": "ordinance",
+          "document_id": "user-f4dcc0440d78b277",
+          "title": "[가상] 가상도 비교시 돌봄 지원 조례",
+          "jurisdiction": "가상도 비교시",
+          "version": "",
+          "effective_date": "",
+          "promulgation_date": "",
+          "source_url": "",
+          "retrieved_at": "2026-09-21T17:19:11.601602+00:00",
+          "source_state": "user_provided",
+          "version_scope": "unknown",
+          "warnings": [
+            "사용자 제공 문서: 공식 원문·시행일·완전성은 검증되지 않았습니다."
+          ],
+          "department": "",
+          "phone": "",
+          "upstream_hash": "",
+          "identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+          "content_hash": "802db4c35ae593e05eb69a3b87a6cfe4dd7bfcf7fad96afa5f9619178de08d7e",
+          "article_count": 6,
+          "supplement_count": 1,
+          "annex_count": 0
+        },
+        "temporal": {
+          "state": "effective_date_unknown",
+          "as_of": "2026-09-22",
+          "version_current_verified": false,
+          "caveat": "시행일이 과거라는 사실만으로 해당 기준일의 현행본임이 증명되지 않습니다. 후속개정·조문별 시행일·부칙을 확인하세요."
+        },
+        "same_jurisdiction_level": "미판정: 광역·기초·교육기관의 권한 차이를 별도 확인",
+        "alignments": [
+          {
+            "category": "correspondence_candidate",
+            "peer": {
+              "id": "E-c83e650a52f943b3cb00",
+              "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+              "document_title": "[가상] 가상도 비교시 돌봄 지원 조례",
+              "document_id": "user-f4dcc0440d78b277",
+              "version": "",
+              "article": "제1조",
+              "article_key": "main:제1조",
+              "text": "제1조(목적) 이 조례는 주민의 돌봄 지원과 관리에 필요한 사항을 정한다.",
+              "source_url": "",
+              "retrieved_at": "2026-09-21T17:19:11.601602+00:00",
+              "effective_date": "",
+              "source_state": "user_provided",
+              "version_scope": "unknown",
+              "content_hash": "802db4c35ae593e05eb69a3b87a6cfe4dd7bfcf7fad96afa5f9619178de08d7e",
+              "jurisdiction": "가상도 비교시",
+              "kind": "ordinance"
+            },
+            "baseline_candidates": [
+              {
+                "retrieval_score": 0.8797,
+                "evidence": {
+                  "id": "E-f6484512bcfd31e4f236",
+                  "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+                  "document_title": "[가상] 가상도 가상시 돌봄 지원 조례",
+                  "document_id": "user-8ad00e093946e956",
+                  "version": "",
+                  "article": "제1조",
+                  "article_key": "main:제1조",
+                  "text": "제1조(목적) 이 조례는 주민의 돌봄 지원에 필요한 사항을 정한다.",
+                  "source_url": "",
+                  "retrieved_at": "2026-09-21T17:19:11.601382+00:00",
+                  "effective_date": "",
+                  "source_state": "user_provided",
+                  "version_scope": "unknown",
+                  "content_hash": "891cd543c5ac608db6a71ed86669f888eff97b54e976445ce10ca6339851a268",
+                  "jurisdiction": "가상도 가상시",
+                  "kind": "ordinance"
+                },
+                "semantic_flags": [],
+                "paragraphs_only_in_peer_candidate": []
+              },
+              {
+                "retrieval_score": 0.027,
+                "evidence": {
+                  "id": "E-621e2df55ec0df45c59f",
+                  "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+                  "document_title": "[가상] 가상도 가상시 돌봄 지원 조례",
+                  "document_id": "user-8ad00e093946e956",
+                  "version": "",
+                  "article": "제2조",
+                  "article_key": "main:제2조",
+                  "text": "제2조(지원대상) 지원대상은 「가상 돌봄지원법」 제5조의2에 따른 주민으로 한다.",
+                  "source_url": "",
+                  "retrieved_at": "2026-09-21T17:19:11.601382+00:00",
+                  "effective_date": "",
+                  "source_state": "user_provided",
+                  "version_scope": "unknown",
+                  "content_hash": "891cd543c5ac608db6a71ed86669f888eff97b54e976445ce10ca6339851a268",
+                  "jurisdiction": "가상도 가상시",
+                  "kind": "ordinance"
+                },
+                "semantic_flags": [],
+                "paragraphs_only_in_peer_candidate": [
+                  "이 조례는 주민의 돌봄 지원과 관리에 필요한 사항을 정한다."
+                ]
+              }
+            ],
+            "finding": "문자·기능 단서에 따른 대응 후보이며 법적 동등성 판단 아님"
+          },
+          {
+            "category": "correspondence_candidate",
+            "peer": {
+              "id": "E-8d3ab6a793e04f7a8054",
+              "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+              "document_title": "[가상] 가상도 비교시 돌봄 지원 조례",
+              "document_id": "user-f4dcc0440d78b277",
+              "version": "",
+              "article": "제2조",
+              "article_key": "main:제2조",
+              "text": "제2조(지원대상) 돌봄이 필요한 주민을 지원대상으로 한다.",
+              "source_url": "",
+              "retrieved_at": "2026-09-21T17:19:11.601602+00:00",
+              "effective_date": "",
+              "source_state": "user_provided",
+              "version_scope": "unknown",
+              "content_hash": "802db4c35ae593e05eb69a3b87a6cfe4dd7bfcf7fad96afa5f9619178de08d7e",
+              "jurisdiction": "가상도 비교시",
+              "kind": "ordinance"
+            },
+            "baseline_candidates": [
+              {
+                "retrieval_score": 0.567,
+                "evidence": {
+                  "id": "E-621e2df55ec0df45c59f",
+                  "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+                  "document_title": "[가상] 가상도 가상시 돌봄 지원 조례",
+                  "document_id": "user-8ad00e093946e956",
+                  "version": "",
+                  "article": "제2조",
+                  "article_key": "main:제2조",
+                  "text": "제2조(지원대상) 지원대상은 「가상 돌봄지원법」 제5조의2에 따른 주민으로 한다.",
+                  "source_url": "",
+                  "retrieved_at": "2026-09-21T17:19:11.601382+00:00",
+                  "effective_date": "",
+                  "source_state": "user_provided",
+                  "version_scope": "unknown",
+                  "content_hash": "891cd543c5ac608db6a71ed86669f888eff97b54e976445ce10ca6339851a268",
+                  "jurisdiction": "가상도 가상시",
+                  "kind": "ordinance"
+                },
+                "semantic_flags": [],
+                "paragraphs_only_in_peer_candidate": [
+                  "돌봄이 필요한 주민을 지원대상으로 한다."
+                ]
+              },
+              {
+                "retrieval_score": 0.1837,
+                "evidence": {
+                  "id": "E-57bf2d83475d368ab69a",
+                  "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+                  "document_title": "[가상] 가상도 가상시 돌봄 지원 조례",
+                  "document_id": "user-8ad00e093946e956",
+                  "version": "",
+                  "article": "제3조",
+                  "article_key": "main:제3조",
+                  "text": "제3조(지원사업) 시장은 예산의 범위에서 돌봄 비용을 지원할 수 있다.",
+                  "source_url": "",
+                  "retrieved_at": "2026-09-21T17:19:11.601382+00:00",
+                  "effective_date": "",
+                  "source_state": "user_provided",
+                  "version_scope": "unknown",
+                  "content_hash": "891cd543c5ac608db6a71ed86669f888eff97b54e976445ce10ca6339851a268",
+                  "jurisdiction": "가상도 가상시",
+                  "kind": "ordinance"
+                },
+                "semantic_flags": [
+                  "재량·의무·금지 표현 차이"
+                ],
+                "paragraphs_only_in_peer_candidate": [
+                  "돌봄이 필요한 주민을 지원대상으로 한다."
+                ]
+              }
+            ],
+            "finding": "문자·기능 단서에 따른 대응 후보이며 법적 동등성 판단 아님"
+          },
+          {
+            "category": "correspondence_candidate",
+            "peer": {
+              "id": "E-249ce08be2478fbac8f7",
+              "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+              "document_title": "[가상] 가상도 비교시 돌봄 지원 조례",
+              "document_id": "user-f4dcc0440d78b277",
+              "version": "",
+              "article": "제3조",
+              "article_key": "main:제3조",
+              "text": "제3조(지원사업) 시장은 예산의 범위에서 돌봄 비용을 지원할 수 있다.",
+              "source_url": "",
+              "retrieved_at": "2026-09-21T17:19:11.601602+00:00",
+              "effective_date": "",
+              "source_state": "user_provided",
+              "version_scope": "unknown",
+              "content_hash": "802db4c35ae593e05eb69a3b87a6cfe4dd7bfcf7fad96afa5f9619178de08d7e",
+              "jurisdiction": "가상도 비교시",
+              "kind": "ordinance"
+            },
+            "baseline_candidates": [
+              {
+                "retrieval_score": 1.0,
+                "evidence": {
+                  "id": "E-57bf2d83475d368ab69a",
+                  "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+                  "document_title": "[가상] 가상도 가상시 돌봄 지원 조례",
+                  "document_id": "user-8ad00e093946e956",
+                  "version": "",
+                  "article": "제3조",
+                  "article_key": "main:제3조",
+                  "text": "제3조(지원사업) 시장은 예산의 범위에서 돌봄 비용을 지원할 수 있다.",
+                  "source_url": "",
+                  "retrieved_at": "2026-09-21T17:19:11.601382+00:00",
+                  "effective_date": "",
+                  "source_state": "user_provided",
+                  "version_scope": "unknown",
+                  "content_hash": "891cd543c5ac608db6a71ed86669f888eff97b54e976445ce10ca6339851a268",
+                  "jurisdiction": "가상도 가상시",
+                  "kind": "ordinance"
+                },
+                "semantic_flags": [],
+                "paragraphs_only_in_peer_candidate": []
+              },
+              {
+                "retrieval_score": 0.168,
+                "evidence": {
+                  "id": "E-621e2df55ec0df45c59f",
+                  "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+                  "document_title": "[가상] 가상도 가상시 돌봄 지원 조례",
+                  "document_id": "user-8ad00e093946e956",
+                  "version": "",
+                  "article": "제2조",
+                  "article_key": "main:제2조",
+                  "text": "제2조(지원대상) 지원대상은 「가상 돌봄지원법」 제5조의2에 따른 주민으로 한다.",
+                  "source_url": "",
+                  "retrieved_at": "2026-09-21T17:19:11.601382+00:00",
+                  "effective_date": "",
+                  "source_state": "user_provided",
+                  "version_scope": "unknown",
+                  "content_hash": "891cd543c5ac608db6a71ed86669f888eff97b54e976445ce10ca6339851a268",
+                  "jurisdiction": "가상도 가상시",
+                  "kind": "ordinance"
+                },
+                "semantic_flags": [
+                  "재량·의무·금지 표현 차이"
+                ],
+                "paragraphs_only_in_peer_candidate": [
+                  "시장은 예산의 범위에서 돌봄 비용을 지원할 수 있다."
+                ]
+              }
+            ],
+            "finding": "문자·기능 단서에 따른 대응 후보이며 법적 동등성 판단 아님"
+          },
+          {
+            "category": "possible_gap",
+            "peer": {
+              "id": "E-773dc6a65fb586a73ff7",
+              "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+              "document_title": "[가상] 가상도 비교시 돌봄 지원 조례",
+              "document_id": "user-f4dcc0440d78b277",
+              "version": "",
+              "article": "제4조",
+              "article_key": "main:제4조",
+              "text": "제4조(신청 및 결정) 신청인은 지원 신청서를 제출하며 시장은 선정기준에 따라 결정하고 결과를 통지한다.",
+              "source_url": "",
+              "retrieved_at": "2026-09-21T17:19:11.601602+00:00",
+              "effective_date": "",
+              "source_state": "user_provided",
+              "version_scope": "unknown",
+              "content_hash": "802db4c35ae593e05eb69a3b87a6cfe4dd7bfcf7fad96afa5f9619178de08d7e",
+              "jurisdiction": "가상도 비교시",
+              "kind": "ordinance"
+            },
+            "baseline_candidates": [
+              {
+                "retrieval_score": 0.0576,
+                "evidence": {
+                  "id": "E-57bf2d83475d368ab69a",
+                  "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+                  "document_title": "[가상] 가상도 가상시 돌봄 지원 조례",
+                  "document_id": "user-8ad00e093946e956",
+                  "version": "",
+                  "article": "제3조",
+                  "article_key": "main:제3조",
+                  "text": "제3조(지원사업) 시장은 예산의 범위에서 돌봄 비용을 지원할 수 있다.",
+                  "source_url": "",
+                  "retrieved_at": "2026-09-21T17:19:11.601382+00:00",
+                  "effective_date": "",
+                  "source_state": "user_provided",
+                  "version_scope": "unknown",
+                  "content_hash": "891cd543c5ac608db6a71ed86669f888eff97b54e976445ce10ca6339851a268",
+                  "jurisdiction": "가상도 가상시",
+                  "kind": "ordinance"
+                },
+                "semantic_flags": [
+                  "재량·의무·금지 표현 차이"
+                ],
+                "paragraphs_only_in_peer_candidate": [
+                  "신청인은 지원 신청서를 제출하며 시장은 선정기준에 따라 결정하고 결과를 통지한다."
+                ]
+              },
+              {
+                "retrieval_score": 0.0079,
+                "evidence": {
+                  "id": "E-f6484512bcfd31e4f236",
+                  "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+                  "document_title": "[가상] 가상도 가상시 돌봄 지원 조례",
+                  "document_id": "user-8ad00e093946e956",
+                  "version": "",
+                  "article": "제1조",
+                  "article_key": "main:제1조",
+                  "text": "제1조(목적) 이 조례는 주민의 돌봄 지원에 필요한 사항을 정한다.",
+                  "source_url": "",
+                  "retrieved_at": "2026-09-21T17:19:11.601382+00:00",
+                  "effective_date": "",
+                  "source_state": "user_provided",
+                  "version_scope": "unknown",
+                  "content_hash": "891cd543c5ac608db6a71ed86669f888eff97b54e976445ce10ca6339851a268",
+                  "jurisdiction": "가상도 가상시",
+                  "kind": "ordinance"
+                },
+                "semantic_flags": [],
+                "paragraphs_only_in_peer_candidate": [
+                  "신청인은 지원 신청서를 제출하며 시장은 선정기준에 따라 결정하고 결과를 통지한다."
+                ]
+              }
+            ],
+            "finding": "문자·기능 단서에 따른 대응 후보이며 법적 동등성 판단 아님"
+          },
+          {
+            "category": "possible_gap",
+            "peer": {
+              "id": "E-5f56e57e7dca288da728",
+              "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+              "document_title": "[가상] 가상도 비교시 돌봄 지원 조례",
+              "document_id": "user-f4dcc0440d78b277",
+              "version": "",
+              "article": "제5조",
+              "article_key": "main:제5조",
+              "text": "제5조(중복지원 방지) 다른 제도에 따른 동일한 지원을 받는 경우에는 중복 지급 여부를 확인한다.",
+              "source_url": "",
+              "retrieved_at": "2026-09-21T17:19:11.601602+00:00",
+              "effective_date": "",
+              "source_state": "user_provided",
+              "version_scope": "unknown",
+              "content_hash": "802db4c35ae593e05eb69a3b87a6cfe4dd7bfcf7fad96afa5f9619178de08d7e",
+              "jurisdiction": "가상도 비교시",
+              "kind": "ordinance"
+            },
+            "baseline_candidates": [
+              {
+                "retrieval_score": 0.1436,
+                "evidence": {
+                  "id": "E-621e2df55ec0df45c59f",
+                  "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+                  "document_title": "[가상] 가상도 가상시 돌봄 지원 조례",
+                  "document_id": "user-8ad00e093946e956",
+                  "version": "",
+                  "article": "제2조",
+                  "article_key": "main:제2조",
+                  "text": "제2조(지원대상) 지원대상은 「가상 돌봄지원법」 제5조의2에 따른 주민으로 한다.",
+                  "source_url": "",
+                  "retrieved_at": "2026-09-21T17:19:11.601382+00:00",
+                  "effective_date": "",
+                  "source_state": "user_provided",
+                  "version_scope": "unknown",
+                  "content_hash": "891cd543c5ac608db6a71ed86669f888eff97b54e976445ce10ca6339851a268",
+                  "jurisdiction": "가상도 가상시",
+                  "kind": "ordinance"
+                },
+                "semantic_flags": [],
+                "paragraphs_only_in_peer_candidate": [
+                  "다른 제도에 따른 동일한 지원을 받는 경우에는 중복 지급 여부를 확인한다."
+                ]
+              },
+              {
+                "retrieval_score": 0.12,
+                "evidence": {
+                  "id": "E-57bf2d83475d368ab69a",
+                  "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+                  "document_title": "[가상] 가상도 가상시 돌봄 지원 조례",
+                  "document_id": "user-8ad00e093946e956",
+                  "version": "",
+                  "article": "제3조",
+                  "article_key": "main:제3조",
+                  "text": "제3조(지원사업) 시장은 예산의 범위에서 돌봄 비용을 지원할 수 있다.",
+                  "source_url": "",
+                  "retrieved_at": "2026-09-21T17:19:11.601382+00:00",
+                  "effective_date": "",
+                  "source_state": "user_provided",
+                  "version_scope": "unknown",
+                  "content_hash": "891cd543c5ac608db6a71ed86669f888eff97b54e976445ce10ca6339851a268",
+                  "jurisdiction": "가상도 가상시",
+                  "kind": "ordinance"
+                },
+                "semantic_flags": [
+                  "재량·의무·금지 표현 차이"
+                ],
+                "paragraphs_only_in_peer_candidate": [
+                  "다른 제도에 따른 동일한 지원을 받는 경우에는 중복 지급 여부를 확인한다."
+                ]
+              }
+            ],
+            "finding": "문자·기능 단서에 따른 대응 후보이며 법적 동등성 판단 아님"
+          },
+          {
+            "category": "possible_gap",
+            "peer": {
+              "id": "E-2ff748c82f30a1dcd2ee",
+              "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+              "document_title": "[가상] 가상도 비교시 돌봄 지원 조례",
+              "document_id": "user-f4dcc0440d78b277",
+              "version": "",
+              "article": "제6조",
+              "article_key": "main:제6조",
+              "text": "제6조(사업평가) 시장은 사업의 성과를 평가하고 결과를 다음 연도 계획에 반영한다.",
+              "source_url": "",
+              "retrieved_at": "2026-09-21T17:19:11.601602+00:00",
+              "effective_date": "",
+              "source_state": "user_provided",
+              "version_scope": "unknown",
+              "content_hash": "802db4c35ae593e05eb69a3b87a6cfe4dd7bfcf7fad96afa5f9619178de08d7e",
+              "jurisdiction": "가상도 비교시",
+              "kind": "ordinance"
+            },
+            "baseline_candidates": [
+              {
+                "retrieval_score": 0.2177,
+                "evidence": {
+                  "id": "E-57bf2d83475d368ab69a",
+                  "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+                  "document_title": "[가상] 가상도 가상시 돌봄 지원 조례",
+                  "document_id": "user-8ad00e093946e956",
+                  "version": "",
+                  "article": "제3조",
+                  "article_key": "main:제3조",
+                  "text": "제3조(지원사업) 시장은 예산의 범위에서 돌봄 비용을 지원할 수 있다.",
+                  "source_url": "",
+                  "retrieved_at": "2026-09-21T17:19:11.601382+00:00",
+                  "effective_date": "",
+                  "source_state": "user_provided",
+                  "version_scope": "unknown",
+                  "content_hash": "891cd543c5ac608db6a71ed86669f888eff97b54e976445ce10ca6339851a268",
+                  "jurisdiction": "가상도 가상시",
+                  "kind": "ordinance"
+                },
+                "semantic_flags": [
+                  "재량·의무·금지 표현 차이"
+                ],
+                "paragraphs_only_in_peer_candidate": [
+                  "시장은 사업의 성과를 평가하고 결과를 다음 연도 계획에 반영한다."
+                ]
+              },
+              {
+                "retrieval_score": 0.009,
+                "evidence": {
+                  "id": "E-f6484512bcfd31e4f236",
+                  "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+                  "document_title": "[가상] 가상도 가상시 돌봄 지원 조례",
+                  "document_id": "user-8ad00e093946e956",
+                  "version": "",
+                  "article": "제1조",
+                  "article_key": "main:제1조",
+                  "text": "제1조(목적) 이 조례는 주민의 돌봄 지원에 필요한 사항을 정한다.",
+                  "source_url": "",
+                  "retrieved_at": "2026-09-21T17:19:11.601382+00:00",
+                  "effective_date": "",
+                  "source_state": "user_provided",
+                  "version_scope": "unknown",
+                  "content_hash": "891cd543c5ac608db6a71ed86669f888eff97b54e976445ce10ca6339851a268",
+                  "jurisdiction": "가상도 가상시",
+                  "kind": "ordinance"
+                },
+                "semantic_flags": [],
+                "paragraphs_only_in_peer_candidate": [
+                  "시장은 사업의 성과를 평가하고 결과를 다음 연도 계획에 반영한다."
+                ]
+              }
+            ],
+            "finding": "문자·기능 단서에 따른 대응 후보이며 법적 동등성 판단 아님"
+          }
+        ]
+      }
+    ],
+    "dimension_matrix": [
+      {
+        "dimension": "목적·정의",
+        "cells": [
+          {
+            "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+            "observed": true,
+            "evidence_ids": [
+              "E-f6484512bcfd31e4f236"
+            ]
+          },
+          {
+            "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+            "observed": true,
+            "evidence_ids": [
+              "E-c83e650a52f943b3cb00"
+            ]
+          }
+        ]
+      },
+      {
+        "dimension": "소관사무·책무",
+        "cells": [
+          {
+            "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+            "observed": true,
+            "evidence_ids": [
+              "E-57bf2d83475d368ab69a"
+            ]
+          },
+          {
+            "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+            "observed": true,
+            "evidence_ids": [
+              "E-249ce08be2478fbac8f7",
+              "E-773dc6a65fb586a73ff7",
+              "E-2ff748c82f30a1dcd2ee"
+            ]
+          }
+        ]
+      },
+      {
+        "dimension": "지원대상·제외",
+        "cells": [
+          {
+            "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+            "observed": true,
+            "evidence_ids": [
+              "E-621e2df55ec0df45c59f"
+            ]
+          },
+          {
+            "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+            "observed": true,
+            "evidence_ids": [
+              "E-8d3ab6a793e04f7a8054"
+            ]
+          }
+        ]
+      },
+      {
+        "dimension": "지원내용·금액",
+        "cells": [
+          {
+            "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+            "observed": true,
+            "evidence_ids": [
+              "E-57bf2d83475d368ab69a"
+            ]
+          },
+          {
+            "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+            "observed": true,
+            "evidence_ids": [
+              "E-249ce08be2478fbac8f7"
+            ]
+          }
+        ]
+      },
+      {
+        "dimension": "신청·선정",
+        "cells": [
+          {
+            "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+            "observed": false,
+            "evidence_ids": []
+          },
+          {
+            "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+            "observed": true,
+            "evidence_ids": [
+              "E-773dc6a65fb586a73ff7"
+            ]
+          }
+        ]
+      },
+      {
+        "dimension": "지급·중복방지",
+        "cells": [
+          {
+            "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+            "observed": false,
+            "evidence_ids": []
+          },
+          {
+            "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+            "observed": true,
+            "evidence_ids": [
+              "E-5f56e57e7dca288da728"
+            ]
+          }
+        ]
+      },
+      {
+        "dimension": "중지·환수·이의",
+        "cells": [
+          {
+            "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+            "observed": false,
+            "evidence_ids": []
+          },
+          {
+            "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+            "observed": false,
+            "evidence_ids": []
+          }
+        ]
+      },
+      {
+        "dimension": "위원회·제척회피",
+        "cells": [
+          {
+            "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+            "observed": false,
+            "evidence_ids": []
+          },
+          {
+            "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+            "observed": false,
+            "evidence_ids": []
+          }
+        ]
+      },
+      {
+        "dimension": "위탁·공유재산",
+        "cells": [
+          {
+            "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+            "observed": false,
+            "evidence_ids": []
+          },
+          {
+            "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+            "observed": false,
+            "evidence_ids": []
+          }
+        ]
+      },
+      {
+        "dimension": "개인정보·기록",
+        "cells": [
+          {
+            "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+            "observed": false,
+            "evidence_ids": []
+          },
+          {
+            "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+            "observed": false,
+            "evidence_ids": []
+          }
+        ]
+      },
+      {
+        "dimension": "점검·평가·공개",
+        "cells": [
+          {
+            "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+            "observed": false,
+            "evidence_ids": []
+          },
+          {
+            "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+            "observed": true,
+            "evidence_ids": [
+              "E-2ff748c82f30a1dcd2ee"
+            ]
+          }
+        ]
+      },
+      {
+        "dimension": "시행·경과·서식",
+        "cells": [
+          {
+            "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+            "observed": false,
+            "evidence_ids": []
+          },
+          {
+            "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+            "observed": false,
+            "evidence_ids": []
+          }
+        ]
+      }
+    ],
+    "method": "제목 0.30 + 본문 3글자 집합 0.55 + 기능단서 0.15. 법적 적합성 점수 아님",
+    "coverage": {
+      "pairs_compared": 18,
+      "unprocessed_articles": 0,
+      "comparison_complete": true
+    },
+    "guardrails": [
+      "조항 수가 많거나 여러 지자체가 채택했다고 우수·적법한 것은 아닙니다.",
+      "possible_gap은 기능이 다른 조문·다른 조례·상위법에 있을 수 있는 검토 후보입니다.",
+      "대상·사무·재정·광역/기초 권한·시행시점을 확인한 후 적용하세요."
+    ]
+  },
+  "impact": {
+    "status": "version_pair_missing",
+    "impacts": [],
+    "warning": "구·신 상위법의 식별자·시행일이 필요합니다."
+  },
+  "feasibility": {
+    "steps": [
+      {
+        "name": "소관사무·입법형식",
+        "applicability": "항상",
+        "owner_role": "사업부서+법무부서",
+        "check": "조례가 필요한지, 기존 조례·규칙·지침·예산 집행으로 가능한지 비교",
+        "completed": false
+      },
+      {
+        "name": "입법예고",
+        "applicability": "적용·예외 확인",
+        "owner_role": "입안부서",
+        "check": "행정절차법·지방자치법·우리 입법절차 조례상 기간/예외·제출주체 확인",
+        "completed": false
+      },
+      {
+        "name": "비용추계·예산협의",
+        "applicability": "재정수반 여부 확인",
+        "owner_role": "예산부서",
+        "check": "우리 비용추계 조례의 대상·기준금액·면제사유; 재원·연도별 수요 확인",
+        "completed": false
+      },
+      {
+        "name": "규제심사",
+        "applicability": "규제 해당 여부 확인",
+        "owner_role": "규제업무부서",
+        "check": "권리제한·의무 신설/강화 여부와 심사 절차 확인",
+        "completed": false
+      },
+      {
+        "name": "성별영향평가",
+        "applicability": "대상·제외 확인",
+        "owner_role": "성별영향평가 담당",
+        "check": "성별영향평가법과 해당 기관 운영기준 확인",
+        "completed": false
+      },
+      {
+        "name": "부패영향평가",
+        "applicability": "대상·운영기준 확인",
+        "owner_role": "감사부서",
+        "check": "특혜·재량·대상선정·이해충돌 기준 확인",
+        "completed": false
+      },
+      {
+        "name": "사회보장 협의",
+        "applicability": "복지성 제도 여부 확인",
+        "owner_role": "복지부서",
+        "check": "사회보장기본법상 신설·변경 협의 대상 확인",
+        "completed": false
+      },
+      {
+        "name": "개인정보 검토",
+        "applicability": "개인정보 처리 여부 확인",
+        "owner_role": "개인정보보호 담당",
+        "check": "수집항목·법적근거·위탁·보유기간·시스템 영향 확인",
+        "completed": false
+      },
+      {
+        "name": "조례규칙심의회·의회",
+        "applicability": "제출주체별 확인",
+        "owner_role": "법무부서+의회협력 담당",
+        "check": "단체장 제출/의원 발의/주민청구에 맞는 심의·의결 경로 확인",
+        "completed": false
+      },
+      {
+        "name": "공포·시행 준비",
+        "applicability": "의결 후 확인",
+        "owner_role": "입안부서+법무부서",
+        "check": "공포·시행일, 경과조치, 서식·홈페이지·시스템·직원교육 정비",
+        "completed": false
+      }
+    ],
+    "budget_template": {
+      "beneficiaries": null,
+      "unit_cost": null,
+      "frequency": null,
+      "operating_cost": null,
+      "formula": "지원대상 수 × 단가 × 지원횟수 + 운영비 (사업에 맞게 수정)",
+      "amounts_are_estimates": true
+    },
+    "warning": "법정 기간·임계금액·부서명·연락처는 추정하지 않습니다. 실제 법령/우리 조례/조직도에서 확인하세요."
+  },
+  "draft": {
+    "status": "working_outline_not_submission_ready",
+    "legislative_options": {
+      "recommended_review_order": [
+        "기존 법령·조례에 따른 집행",
+        "기존 조례 일부개정",
+        "별도 조례 제정",
+        "규칙·지침 정비",
+        "추진 유보 또는 사업 재설계"
+      ],
+      "baseline_identified": true,
+      "provisional_path": "기존 조례의 적용범위·개정 필요성 우선 검토",
+      "options": [
+        {
+          "path": "existing_authority",
+          "condition": "소관사무·대상·지원방식이 현행 근거에 포함되고 예산·절차 요건을 충족하는지 확인",
+          "benefit": "불필요한 중복 입법 방지"
+        },
+        {
+          "path": "amend",
+          "condition": "기존 조례 목적에 부합하지만 대상·사업·절차·위임사항 정비가 필요한지 확인",
+          "benefit": "기존 집행체계와 연속성 유지"
+        },
+        {
+          "path": "enact",
+          "condition": "별도 입법의 필요성·권한·독립적 규율대상·기존 조례와의 관계가 확인되는지 검토",
+          "benefit": "새로운 제도의 체계적 근거 마련"
+        },
+        {
+          "path": "rule_or_guideline",
+          "condition": "법률·조례가 허용한 집행 세부사항인지 확인; 권리제한·본질적 사항을 지침으로 신설하지 않음",
+          "benefit": "입법형식과 규율 수준의 적정화"
+        },
+        {
+          "path": "defer_or_redesign",
+          "condition": "권한·상위법·재원·협의 요건이 충족되지 않거나 효과가 불명확한 경우",
+          "benefit": "위법·중복·집행불능 위험 예방"
+        }
+      ],
+      "decision": "human_confirmation_required",
+      "topic": "돌봄 지원",
+      "warning": "다른 지자체의 제정 사실이나 검색 0건만으로 우리 기관의 제정 필요성을 확정하지 않습니다."
+    },
+    "suggested_title": "가상도 가상시 돌봄 지원 조례안",
+    "enactment_outline": "가상도 가상시 돌봄 지원 조례안\n※ 검토용 골격: 대괄호를 모두 해소하고 법무·사업·예산 검토를 거쳐야 합니다.\n제1조(목적) 이 조례는 [소관사무·정책목표]에 관한 사항을 정함으로써 [주민 편익·공익]에 이바지함을 목적으로 한다.\n제2조(정의) 이 조례에서 사용하는 용어의 뜻은 [상위법 정의와의 일치 및 별도 정의 필요성 확인]과 같다.\n제3조(적용범위) [적용대상·지역·다른 법령 또는 조례와의 관계를 확인하여 규정한다].\n제4조(추진주체 및 사업) [권한 있는 기관·사업범위·기존 사업과의 중복 여부를 확인하여 규정한다].\n제5조(신청 및 결정) [신청이 필요한 사업인 경우에만 대상·선정기준·처리절차·결과통지를 규정한다].\n제6조(재정지원) [지원근거가 확인된 경우에만 범위·재원·중복방지·정산 등 필요한 사항을 규정한다].\n제7조(사업관리) [사업 특성에 맞는 점검·성과평가·기록관리 및 공개범위를 규정한다].\n제8조(권익보호) [개인정보·불복·환수 등의 적용 법령을 확인하고 필요한 사항만 규정한다].\n부칙\n제1조(시행일) 이 조례는 [상위법 시행일·공포·예산·시스템 준비를 반영한 날짜]부터 시행한다.\n제2조(경과조치) [종전 신청·지원·위탁·위원 등의 보호가 필요한 경우 구체적으로 규정한다].",
+    "amendment_candidates": [
+      {
+        "topic": "제4조",
+        "peer_title": "[가상] 가상도 비교시 돌봄 지원 조례",
+        "evidence_ids": [
+          "E-773dc6a65fb586a73ff7"
+        ],
+        "action": "우리 조례·다른 조례·상위법의 대체 기능 여부와 도입 필요성 검토"
+      },
+      {
+        "topic": "제5조",
+        "peer_title": "[가상] 가상도 비교시 돌봄 지원 조례",
+        "evidence_ids": [
+          "E-5f56e57e7dca288da728"
+        ],
+        "action": "우리 조례·다른 조례·상위법의 대체 기능 여부와 도입 필요성 검토"
+      },
+      {
+        "topic": "제6조",
+        "peer_title": "[가상] 가상도 비교시 돌봄 지원 조례",
+        "evidence_ids": [
+          "E-2ff748c82f30a1dcd2ee"
+        ],
+        "action": "우리 조례·다른 조례·상위법의 대체 기능 여부와 도입 필요성 검토"
+      }
+    ],
+    "amendment_draft_status": "원문과 변경문구를 확정한 후 jachi_draft_amendment로 신구대비·일부개정문 생성",
+    "proposal_reason_template": {
+      "problem": "[가상 시연] 주민 돌봄서비스의 신청·선정 기준을 명확히 하고 중복지원 방지 및 성과평가 절차를 검토한다.",
+      "why_existing_framework_insufficient": "[현행 규정으로 해결되지 않는 이유와 근거]",
+      "expected_effect": "[검증 가능한 성과지표]",
+      "evidence": "[공식 조문·비교사례·업무자료]"
+    },
+    "submission_ready": false,
+    "auto_published": false,
+    "warning": "모든 예시 조항이 필수라는 뜻이 아닙니다. 불필요한 조항·위원회·위탁·지원 근거를 신설하지 마세요.",
+    "constraints_from_team": {
+      "authority_and_rights_checks": [
+        {
+          "id": "R03",
+          "topic": "지원금·보조금",
+          "status": "review_required",
+          "priority": "normal",
+          "trigger_evidence_ids": [
+            "E-57bf2d83475d368ab69a",
+            "E-249ce08be2478fbac8f7"
+          ],
+          "triggered_by_project": false,
+          "action": "지방재정·지방보조금 법령, 공익성·지원근거·중복지원·집행절차 확인",
+          "rule_basis_type": "screening_checklist_not_legal_determination",
+          "method_reference": "https://opinion.lawmaking.go.kr/lmKnlg/loPlanGud"
+        },
+        {
+          "id": "R04",
+          "topic": "사회보장 신설·변경",
+          "status": "review_required",
+          "priority": "normal",
+          "trigger_evidence_ids": [
+            "E-f6484512bcfd31e4f236",
+            "E-621e2df55ec0df45c59f",
+            "E-57bf2d83475d368ab69a",
+            "E-c83e650a52f943b3cb00",
+            "E-8d3ab6a793e04f7a8054",
+            "E-249ce08be2478fbac8f7",
+            "E-5f56e57e7dca288da728"
+          ],
+          "triggered_by_project": true,
+          "action": "사회보장제도 신설·변경 협의 대상 여부 및 협의 진행상태 확인",
+          "rule_basis_type": "screening_checklist_not_legal_determination",
+          "method_reference": "https://opinion.lawmaking.go.kr/lmKnlg/loPlanGud"
+        },
+        {
+          "id": "R11",
+          "topic": "중복·충돌",
+          "status": "review_required",
+          "priority": "normal",
+          "trigger_evidence_ids": [
+            "E-f6484512bcfd31e4f236",
+            "E-c83e650a52f943b3cb00"
+          ],
+          "triggered_by_project": false,
+          "action": "우리 자치법규·상위법의 정의·적용대상·위원회·지원기준 중복 확인",
+          "rule_basis_type": "screening_checklist_not_legal_determination",
+          "method_reference": "https://opinion.lawmaking.go.kr/lmKnlg/loPlanGud"
+        },
+        {
+          "id": "R12",
+          "topic": "계획·평가",
+          "status": "review_required",
+          "priority": "normal",
+          "trigger_evidence_ids": [
+            "E-2ff748c82f30a1dcd2ee"
+          ],
+          "triggered_by_project": true,
+          "action": "주기·주체·결과활용·공개범위·추가 행정부담 확인",
+          "rule_basis_type": "screening_checklist_not_legal_determination",
+          "method_reference": "https://opinion.lawmaking.go.kr/lmKnlg/loPlanGud"
+        }
+      ],
+      "citations_to_verify": [
+        {
+          "law_title": "가상 돌봄지원법",
+          "article": "제5조의2",
+          "paragraph": "",
+          "item": "",
+          "quote": "「가상 돌봄지원법」 제5조의2",
+          "versions": [
+            {
+              "document_identity": "law:user-b32112d4e3f3739d::unknown:8e1aaa282237cb60",
+              "status": "article_present",
+              "evidence_id": "E-3f4110a6b699152a7bf2",
+              "temporal": {
+                "state": "effective_date_unknown",
+                "as_of": "2026-09-22",
+                "version_current_verified": false,
+                "caveat": "시행일이 과거라는 사실만으로 해당 기준일의 현행본임이 증명되지 않습니다. 후속개정·조문별 시행일·부칙을 확인하세요."
+              },
+              "source_state": "user_provided",
+              "subdivision_status": "not_requested"
+            }
+          ],
+          "warning": "조문 존재 확인은 인용 취지의 정확성·사업 근거·위임 적합성 검증과 다릅니다."
+        }
+      ],
+      "amendment_impact": {
+        "status": "version_pair_missing",
+        "impacts": [],
+        "warning": "구·신 상위법의 식별자·시행일이 필요합니다."
+      },
+      "procedural_dependencies": [
+        {
+          "name": "소관사무·입법형식",
+          "applicability": "항상",
+          "owner_role": "사업부서+법무부서",
+          "check": "조례가 필요한지, 기존 조례·규칙·지침·예산 집행으로 가능한지 비교",
+          "completed": false
+        },
+        {
+          "name": "입법예고",
+          "applicability": "적용·예외 확인",
+          "owner_role": "입안부서",
+          "check": "행정절차법·지방자치법·우리 입법절차 조례상 기간/예외·제출주체 확인",
+          "completed": false
+        },
+        {
+          "name": "비용추계·예산협의",
+          "applicability": "재정수반 여부 확인",
+          "owner_role": "예산부서",
+          "check": "우리 비용추계 조례의 대상·기준금액·면제사유; 재원·연도별 수요 확인",
+          "completed": false
+        },
+        {
+          "name": "규제심사",
+          "applicability": "규제 해당 여부 확인",
+          "owner_role": "규제업무부서",
+          "check": "권리제한·의무 신설/강화 여부와 심사 절차 확인",
+          "completed": false
+        },
+        {
+          "name": "성별영향평가",
+          "applicability": "대상·제외 확인",
+          "owner_role": "성별영향평가 담당",
+          "check": "성별영향평가법과 해당 기관 운영기준 확인",
+          "completed": false
+        },
+        {
+          "name": "부패영향평가",
+          "applicability": "대상·운영기준 확인",
+          "owner_role": "감사부서",
+          "check": "특혜·재량·대상선정·이해충돌 기준 확인",
+          "completed": false
+        },
+        {
+          "name": "사회보장 협의",
+          "applicability": "복지성 제도 여부 확인",
+          "owner_role": "복지부서",
+          "check": "사회보장기본법상 신설·변경 협의 대상 확인",
+          "completed": false
+        },
+        {
+          "name": "개인정보 검토",
+          "applicability": "개인정보 처리 여부 확인",
+          "owner_role": "개인정보보호 담당",
+          "check": "수집항목·법적근거·위탁·보유기간·시스템 영향 확인",
+          "completed": false
+        },
+        {
+          "name": "조례규칙심의회·의회",
+          "applicability": "제출주체별 확인",
+          "owner_role": "법무부서+의회협력 담당",
+          "check": "단체장 제출/의원 발의/주민청구에 맞는 심의·의결 경로 확인",
+          "completed": false
+        },
+        {
+          "name": "공포·시행 준비",
+          "applicability": "의결 후 확인",
+          "owner_role": "입안부서+법무부서",
+          "check": "공포·시행일, 경과조치, 서식·홈페이지·시스템·직원교육 정비",
+          "completed": false
+        }
+      ],
+      "source_errors": [],
+      "draft_block_policy": "미확인 위임·법적 근거·기한은 확정 조문으로 자동 삽입하지 않음"
+    },
+    "model_proposed_clauses": {
+      "accepted": [],
+      "rejected": []
+    }
+  },
+  "quality_gate": {
+    "status": "human_review_required",
+    "legal_approval": false,
+    "submission_ready": false,
+    "blocking_or_pending_items": [
+      "[가상] 가상도 가상시 돌봄 지원 조례: 공식 최신 원문 확인 필요(user_provided).",
+      "[가상] 가상도 가상시 돌봄 지원 조례: 해당 기준일 적용 버전·조문별 시행일 확인 필요(effective_date_unknown).",
+      "[가상] 가상도 가상시 돌봄 지원 조례: 사용자 제공 문서: 공식 원문·시행일·완전성은 검증되지 않았습니다.",
+      "[가상] 가상도 비교시 돌봄 지원 조례: 공식 최신 원문 확인 필요(user_provided).",
+      "[가상] 가상도 비교시 돌봄 지원 조례: 해당 기준일 적용 버전·조문별 시행일 확인 필요(effective_date_unknown).",
+      "[가상] 가상도 비교시 돌봄 지원 조례: 사용자 제공 문서: 공식 원문·시행일·완전성은 검증되지 않았습니다.",
+      "가상 돌봄지원법: 공식 최신 원문 확인 필요(user_provided).",
+      "가상 돌봄지원법: 해당 기준일 적용 버전·조문별 시행일 확인 필요(effective_date_unknown).",
+      "가상 돌봄지원법: 사용자 제공 문서: 공식 원문·시행일·완전성은 검증되지 않았습니다.",
+      "법무·사업·예산 등 담당자의 최종 법적 판단 및 입법절차 확인이 필요합니다."
+    ],
+    "rejected_model_claims": 0,
+    "no_majority_vote_on_law": true,
+    "decision_policy": "근거 없는 주장·상충 근거·미확인 적용시점은 다수결로 통과시키지 않습니다."
+  },
+  "errors": [],
+  "agents": [
+    {
+      "id": "A1",
+      "name": "사업·입법기획",
+      "goal": "사업 목적·대상·수단을 구조화하고 제정/개정/기존 근거 활용의 대안을 설정한다.",
+      "method": "deterministic_rules",
+      "status": "completed",
+      "duration_seconds": 0.0,
+      "result": {
+        "project": "[가상 시연] 주민 돌봄서비스의 신청·선정 기준을 명확히 하고 중복지원 방지 및 성과평가 절차를 검토한다.",
+        "jurisdiction": "가상도 가상시",
+        "mode": "review",
+        "as_of": "2026-09-22",
+        "intake_questions": [
+          "소관사무와 사업 권한은 무엇인가?",
+          "사업 대상·지원 방법·예산·성과지표가 정해졌는가?",
+          "기존 조례·규칙·지침으로 집행 가능한가?"
+        ],
+        "collection_plan": {
+          "terms": [
+            "돌봄 지원"
+          ],
+          "baseline_explicit": false,
+          "api_budget": 36
+        }
+      },
+      "model": {
+        "status": "not_requested"
+      }
+    },
+    {
+      "id": "A2",
+      "name": "공식자료·버전관리",
+      "goal": "공식 식별자·기관·시행일·수집범위와 원문 근거를 확보한다.",
+      "method": "deterministic_rules",
+      "status": "completed",
+      "duration_seconds": 0.0022,
+      "result": {
+        "documents": [
+          {
+            "kind": "ordinance",
+            "document_id": "user-8ad00e093946e956",
+            "title": "[가상] 가상도 가상시 돌봄 지원 조례",
+            "jurisdiction": "가상도 가상시",
+            "version": "",
+            "effective_date": "",
+            "promulgation_date": "",
+            "source_url": "",
+            "retrieved_at": "2026-09-21T17:19:11.601382+00:00",
+            "source_state": "user_provided",
+            "version_scope": "unknown",
+            "warnings": [
+              "사용자 제공 문서: 공식 원문·시행일·완전성은 검증되지 않았습니다."
+            ],
+            "department": "",
+            "phone": "",
+            "upstream_hash": "",
+            "identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+            "content_hash": "891cd543c5ac608db6a71ed86669f888eff97b54e976445ce10ca6339851a268",
+            "article_count": 3,
+            "supplement_count": 1,
+            "annex_count": 0
+          },
+          {
+            "kind": "ordinance",
+            "document_id": "user-f4dcc0440d78b277",
+            "title": "[가상] 가상도 비교시 돌봄 지원 조례",
+            "jurisdiction": "가상도 비교시",
+            "version": "",
+            "effective_date": "",
+            "promulgation_date": "",
+            "source_url": "",
+            "retrieved_at": "2026-09-21T17:19:11.601602+00:00",
+            "source_state": "user_provided",
+            "version_scope": "unknown",
+            "warnings": [
+              "사용자 제공 문서: 공식 원문·시행일·완전성은 검증되지 않았습니다."
+            ],
+            "department": "",
+            "phone": "",
+            "upstream_hash": "",
+            "identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+            "content_hash": "802db4c35ae593e05eb69a3b87a6cfe4dd7bfcf7fad96afa5f9619178de08d7e",
+            "article_count": 6,
+            "supplement_count": 1,
+            "annex_count": 0
+          },
+          {
+            "kind": "law",
+            "document_id": "user-b32112d4e3f3739d",
+            "title": "가상 돌봄지원법",
+            "jurisdiction": "",
+            "version": "",
+            "effective_date": "",
+            "promulgation_date": "",
+            "source_url": "",
+            "retrieved_at": "2026-09-21T17:19:11.601729+00:00",
+            "source_state": "user_provided",
+            "version_scope": "unknown",
+            "warnings": [
+              "사용자 제공 문서: 공식 원문·시행일·완전성은 검증되지 않았습니다."
+            ],
+            "department": "",
+            "phone": "",
+            "upstream_hash": "",
+            "identity": "law:user-b32112d4e3f3739d::unknown:8e1aaa282237cb60",
+            "content_hash": "8e1aaa282237cb602af1e17bc55005b5d3592d9b6a27ec37c2bc03386a28ff4d",
+            "article_count": 2,
+            "supplement_count": 1,
+            "annex_count": 0
+          }
+        ],
+        "baseline": {
+          "kind": "ordinance",
+          "document_id": "user-8ad00e093946e956",
+          "title": "[가상] 가상도 가상시 돌봄 지원 조례",
+          "jurisdiction": "가상도 가상시",
+          "version": "",
+          "effective_date": "",
+          "promulgation_date": "",
+          "source_url": "",
+          "retrieved_at": "2026-09-21T17:19:11.601382+00:00",
+          "source_state": "user_provided",
+          "version_scope": "unknown",
+          "warnings": [
+            "사용자 제공 문서: 공식 원문·시행일·완전성은 검증되지 않았습니다."
+          ],
+          "department": "",
+          "phone": "",
+          "upstream_hash": "",
+          "identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+          "content_hash": "891cd543c5ac608db6a71ed86669f888eff97b54e976445ce10ca6339851a268",
+          "article_count": 3,
+          "supplement_count": 1,
+          "annex_count": 0
+        },
+        "selection_log": [
+          {
+            "role": "baseline",
+            "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+            "selection": "user_provided_first_same_jurisdiction",
+            "warning": "사용자 제공 순서 기준: 원문 공식성·대상 적합성 미확인"
+          }
+        ],
+        "searches": [],
+        "errors": [],
+        "evidence_count": 11,
+        "national_exhaustive": false,
+        "version_checks": [
+          {
+            "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+            "state": "effective_date_unknown",
+            "as_of": "2026-09-22",
+            "version_current_verified": false,
+            "caveat": "시행일이 과거라는 사실만으로 해당 기준일의 현행본임이 증명되지 않습니다. 후속개정·조문별 시행일·부칙을 확인하세요."
+          },
+          {
+            "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+            "state": "effective_date_unknown",
+            "as_of": "2026-09-22",
+            "version_current_verified": false,
+            "caveat": "시행일이 과거라는 사실만으로 해당 기준일의 현행본임이 증명되지 않습니다. 후속개정·조문별 시행일·부칙을 확인하세요."
+          },
+          {
+            "document_identity": "law:user-b32112d4e3f3739d::unknown:8e1aaa282237cb60",
+            "state": "effective_date_unknown",
+            "as_of": "2026-09-22",
+            "version_current_verified": false,
+            "caveat": "시행일이 과거라는 사실만으로 해당 기준일의 현행본임이 증명되지 않습니다. 후속개정·조문별 시행일·부칙을 확인하세요."
+          }
+        ]
+      },
+      "model": {
+        "status": "not_requested"
+      }
+    },
+    {
+      "id": "A3",
+      "name": "상위법·권한검토",
+      "goal": "소관사무·법률유보·위임·권한분장·법령 인용을 확인한다.",
+      "method": "deterministic_rules",
+      "status": "completed",
+      "duration_seconds": 0.0033,
+      "result": {
+        "findings": [
+          {
+            "id": "R03",
+            "topic": "지원금·보조금",
+            "status": "review_required",
+            "priority": "normal",
+            "trigger_evidence_ids": [
+              "E-57bf2d83475d368ab69a",
+              "E-249ce08be2478fbac8f7"
+            ],
+            "triggered_by_project": false,
+            "action": "지방재정·지방보조금 법령, 공익성·지원근거·중복지원·집행절차 확인",
+            "rule_basis_type": "screening_checklist_not_legal_determination",
+            "method_reference": "https://opinion.lawmaking.go.kr/lmKnlg/loPlanGud"
+          },
+          {
+            "id": "R04",
+            "topic": "사회보장 신설·변경",
+            "status": "review_required",
+            "priority": "normal",
+            "trigger_evidence_ids": [
+              "E-f6484512bcfd31e4f236",
+              "E-621e2df55ec0df45c59f",
+              "E-57bf2d83475d368ab69a",
+              "E-c83e650a52f943b3cb00",
+              "E-8d3ab6a793e04f7a8054",
+              "E-249ce08be2478fbac8f7",
+              "E-5f56e57e7dca288da728"
+            ],
+            "triggered_by_project": true,
+            "action": "사회보장제도 신설·변경 협의 대상 여부 및 협의 진행상태 확인",
+            "rule_basis_type": "screening_checklist_not_legal_determination",
+            "method_reference": "https://opinion.lawmaking.go.kr/lmKnlg/loPlanGud"
+          },
+          {
+            "id": "R11",
+            "topic": "중복·충돌",
+            "status": "review_required",
+            "priority": "normal",
+            "trigger_evidence_ids": [
+              "E-f6484512bcfd31e4f236",
+              "E-c83e650a52f943b3cb00"
+            ],
+            "triggered_by_project": false,
+            "action": "우리 자치법규·상위법의 정의·적용대상·위원회·지원기준 중복 확인",
+            "rule_basis_type": "screening_checklist_not_legal_determination",
+            "method_reference": "https://opinion.lawmaking.go.kr/lmKnlg/loPlanGud"
+          },
+          {
+            "id": "R12",
+            "topic": "계획·평가",
+            "status": "review_required",
+            "priority": "normal",
+            "trigger_evidence_ids": [
+              "E-2ff748c82f30a1dcd2ee"
+            ],
+            "triggered_by_project": true,
+            "action": "주기·주체·결과활용·공개범위·추가 행정부담 확인",
+            "rule_basis_type": "screening_checklist_not_legal_determination",
+            "method_reference": "https://opinion.lawmaking.go.kr/lmKnlg/loPlanGud"
+          }
+        ],
+        "explicit_references": [
+          {
+            "law_title": "가상 돌봄지원법",
+            "article": "제5조의2",
+            "paragraph": "",
+            "item": "",
+            "quote": "「가상 돌봄지원법」 제5조의2"
+          }
+        ],
+        "unresolved_short_references": false,
+        "legal_conclusion": "자동 적법/위법 판정 없음. 규칙 탐지 여부와 법적 결론을 구분하세요.",
+        "negative_result_warning": "단서가 발견되지 않아도 검토 항목이 불필요하거나 적법하다는 뜻이 아닙니다.",
+        "reference_checks": [
+          {
+            "law_title": "가상 돌봄지원법",
+            "article": "제5조의2",
+            "paragraph": "",
+            "item": "",
+            "quote": "「가상 돌봄지원법」 제5조의2",
+            "versions": [
+              {
+                "document_identity": "law:user-b32112d4e3f3739d::unknown:8e1aaa282237cb60",
+                "status": "article_present",
+                "evidence_id": "E-3f4110a6b699152a7bf2",
+                "temporal": {
+                  "state": "effective_date_unknown",
+                  "as_of": "2026-09-22",
+                  "version_current_verified": false,
+                  "caveat": "시행일이 과거라는 사실만으로 해당 기준일의 현행본임이 증명되지 않습니다. 후속개정·조문별 시행일·부칙을 확인하세요."
+                },
+                "source_state": "user_provided",
+                "subdivision_status": "not_requested"
+              }
+            ],
+            "warning": "조문 존재 확인은 인용 취지의 정확성·사업 근거·위임 적합성 검증과 다릅니다."
+          }
+        ]
+      },
+      "model": {
+        "status": "not_requested"
+      }
+    },
+    {
+      "id": "A4",
+      "name": "지자체 비교·차이분석",
+      "goal": "기능별 조문을 대응시키고 도입 후보와 적용 불가 조건을 구별한다.",
+      "method": "deterministic_rules",
+      "status": "completed",
+      "duration_seconds": 0.0264,
+      "result": {
+        "baseline": {
+          "kind": "ordinance",
+          "document_id": "user-8ad00e093946e956",
+          "title": "[가상] 가상도 가상시 돌봄 지원 조례",
+          "jurisdiction": "가상도 가상시",
+          "version": "",
+          "effective_date": "",
+          "promulgation_date": "",
+          "source_url": "",
+          "retrieved_at": "2026-09-21T17:19:11.601382+00:00",
+          "source_state": "user_provided",
+          "version_scope": "unknown",
+          "warnings": [
+            "사용자 제공 문서: 공식 원문·시행일·완전성은 검증되지 않았습니다."
+          ],
+          "department": "",
+          "phone": "",
+          "upstream_hash": "",
+          "identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+          "content_hash": "891cd543c5ac608db6a71ed86669f888eff97b54e976445ce10ca6339851a268",
+          "article_count": 3,
+          "supplement_count": 1,
+          "annex_count": 0
+        },
+        "comparisons": [
+          {
+            "peer_document": {
+              "kind": "ordinance",
+              "document_id": "user-f4dcc0440d78b277",
+              "title": "[가상] 가상도 비교시 돌봄 지원 조례",
+              "jurisdiction": "가상도 비교시",
+              "version": "",
+              "effective_date": "",
+              "promulgation_date": "",
+              "source_url": "",
+              "retrieved_at": "2026-09-21T17:19:11.601602+00:00",
+              "source_state": "user_provided",
+              "version_scope": "unknown",
+              "warnings": [
+                "사용자 제공 문서: 공식 원문·시행일·완전성은 검증되지 않았습니다."
+              ],
+              "department": "",
+              "phone": "",
+              "upstream_hash": "",
+              "identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+              "content_hash": "802db4c35ae593e05eb69a3b87a6cfe4dd7bfcf7fad96afa5f9619178de08d7e",
+              "article_count": 6,
+              "supplement_count": 1,
+              "annex_count": 0
+            },
+            "temporal": {
+              "state": "effective_date_unknown",
+              "as_of": "2026-09-22",
+              "version_current_verified": false,
+              "caveat": "시행일이 과거라는 사실만으로 해당 기준일의 현행본임이 증명되지 않습니다. 후속개정·조문별 시행일·부칙을 확인하세요."
+            },
+            "same_jurisdiction_level": "미판정: 광역·기초·교육기관의 권한 차이를 별도 확인",
+            "alignments": [
+              {
+                "category": "correspondence_candidate",
+                "peer": {
+                  "id": "E-c83e650a52f943b3cb00",
+                  "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+                  "document_title": "[가상] 가상도 비교시 돌봄 지원 조례",
+                  "document_id": "user-f4dcc0440d78b277",
+                  "version": "",
+                  "article": "제1조",
+                  "article_key": "main:제1조",
+                  "text": "제1조(목적) 이 조례는 주민의 돌봄 지원과 관리에 필요한 사항을 정한다.",
+                  "source_url": "",
+                  "retrieved_at": "2026-09-21T17:19:11.601602+00:00",
+                  "effective_date": "",
+                  "source_state": "user_provided",
+                  "version_scope": "unknown",
+                  "content_hash": "802db4c35ae593e05eb69a3b87a6cfe4dd7bfcf7fad96afa5f9619178de08d7e",
+                  "jurisdiction": "가상도 비교시",
+                  "kind": "ordinance"
+                },
+                "baseline_candidates": [
+                  {
+                    "retrieval_score": 0.8797,
+                    "evidence": {
+                      "id": "E-f6484512bcfd31e4f236",
+                      "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+                      "document_title": "[가상] 가상도 가상시 돌봄 지원 조례",
+                      "document_id": "user-8ad00e093946e956",
+                      "version": "",
+                      "article": "제1조",
+                      "article_key": "main:제1조",
+                      "text": "제1조(목적) 이 조례는 주민의 돌봄 지원에 필요한 사항을 정한다.",
+                      "source_url": "",
+                      "retrieved_at": "2026-09-21T17:19:11.601382+00:00",
+                      "effective_date": "",
+                      "source_state": "user_provided",
+                      "version_scope": "unknown",
+                      "content_hash": "891cd543c5ac608db6a71ed86669f888eff97b54e976445ce10ca6339851a268",
+                      "jurisdiction": "가상도 가상시",
+                      "kind": "ordinance"
+                    },
+                    "semantic_flags": [],
+                    "paragraphs_only_in_peer_candidate": []
+                  },
+                  {
+                    "retrieval_score": 0.027,
+                    "evidence": {
+                      "id": "E-621e2df55ec0df45c59f",
+                      "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+                      "document_title": "[가상] 가상도 가상시 돌봄 지원 조례",
+                      "document_id": "user-8ad00e093946e956",
+                      "version": "",
+                      "article": "제2조",
+                      "article_key": "main:제2조",
+                      "text": "제2조(지원대상) 지원대상은 「가상 돌봄지원법」 제5조의2에 따른 주민으로 한다.",
+                      "source_url": "",
+                      "retrieved_at": "2026-09-21T17:19:11.601382+00:00",
+                      "effective_date": "",
+                      "source_state": "user_provided",
+                      "version_scope": "unknown",
+                      "content_hash": "891cd543c5ac608db6a71ed86669f888eff97b54e976445ce10ca6339851a268",
+                      "jurisdiction": "가상도 가상시",
+                      "kind": "ordinance"
+                    },
+                    "semantic_flags": [],
+                    "paragraphs_only_in_peer_candidate": [
+                      "이 조례는 주민의 돌봄 지원과 관리에 필요한 사항을 정한다."
+                    ]
+                  }
+                ],
+                "finding": "문자·기능 단서에 따른 대응 후보이며 법적 동등성 판단 아님"
+              },
+              {
+                "category": "correspondence_candidate",
+                "peer": {
+                  "id": "E-8d3ab6a793e04f7a8054",
+                  "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+                  "document_title": "[가상] 가상도 비교시 돌봄 지원 조례",
+                  "document_id": "user-f4dcc0440d78b277",
+                  "version": "",
+                  "article": "제2조",
+                  "article_key": "main:제2조",
+                  "text": "제2조(지원대상) 돌봄이 필요한 주민을 지원대상으로 한다.",
+                  "source_url": "",
+                  "retrieved_at": "2026-09-21T17:19:11.601602+00:00",
+                  "effective_date": "",
+                  "source_state": "user_provided",
+                  "version_scope": "unknown",
+                  "content_hash": "802db4c35ae593e05eb69a3b87a6cfe4dd7bfcf7fad96afa5f9619178de08d7e",
+                  "jurisdiction": "가상도 비교시",
+                  "kind": "ordinance"
+                },
+                "baseline_candidates": [
+                  {
+                    "retrieval_score": 0.567,
+                    "evidence": {
+                      "id": "E-621e2df55ec0df45c59f",
+                      "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+                      "document_title": "[가상] 가상도 가상시 돌봄 지원 조례",
+                      "document_id": "user-8ad00e093946e956",
+                      "version": "",
+                      "article": "제2조",
+                      "article_key": "main:제2조",
+                      "text": "제2조(지원대상) 지원대상은 「가상 돌봄지원법」 제5조의2에 따른 주민으로 한다.",
+                      "source_url": "",
+                      "retrieved_at": "2026-09-21T17:19:11.601382+00:00",
+                      "effective_date": "",
+                      "source_state": "user_provided",
+                      "version_scope": "unknown",
+                      "content_hash": "891cd543c5ac608db6a71ed86669f888eff97b54e976445ce10ca6339851a268",
+                      "jurisdiction": "가상도 가상시",
+                      "kind": "ordinance"
+                    },
+                    "semantic_flags": [],
+                    "paragraphs_only_in_peer_candidate": [
+                      "돌봄이 필요한 주민을 지원대상으로 한다."
+                    ]
+                  },
+                  {
+                    "retrieval_score": 0.1837,
+                    "evidence": {
+                      "id": "E-57bf2d83475d368ab69a",
+                      "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+                      "document_title": "[가상] 가상도 가상시 돌봄 지원 조례",
+                      "document_id": "user-8ad00e093946e956",
+                      "version": "",
+                      "article": "제3조",
+                      "article_key": "main:제3조",
+                      "text": "제3조(지원사업) 시장은 예산의 범위에서 돌봄 비용을 지원할 수 있다.",
+                      "source_url": "",
+                      "retrieved_at": "2026-09-21T17:19:11.601382+00:00",
+                      "effective_date": "",
+                      "source_state": "user_provided",
+                      "version_scope": "unknown",
+                      "content_hash": "891cd543c5ac608db6a71ed86669f888eff97b54e976445ce10ca6339851a268",
+                      "jurisdiction": "가상도 가상시",
+                      "kind": "ordinance"
+                    },
+                    "semantic_flags": [
+                      "재량·의무·금지 표현 차이"
+                    ],
+                    "paragraphs_only_in_peer_candidate": [
+                      "돌봄이 필요한 주민을 지원대상으로 한다."
+                    ]
+                  }
+                ],
+                "finding": "문자·기능 단서에 따른 대응 후보이며 법적 동등성 판단 아님"
+              },
+              {
+                "category": "correspondence_candidate",
+                "peer": {
+                  "id": "E-249ce08be2478fbac8f7",
+                  "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+                  "document_title": "[가상] 가상도 비교시 돌봄 지원 조례",
+                  "document_id": "user-f4dcc0440d78b277",
+                  "version": "",
+                  "article": "제3조",
+                  "article_key": "main:제3조",
+                  "text": "제3조(지원사업) 시장은 예산의 범위에서 돌봄 비용을 지원할 수 있다.",
+                  "source_url": "",
+                  "retrieved_at": "2026-09-21T17:19:11.601602+00:00",
+                  "effective_date": "",
+                  "source_state": "user_provided",
+                  "version_scope": "unknown",
+                  "content_hash": "802db4c35ae593e05eb69a3b87a6cfe4dd7bfcf7fad96afa5f9619178de08d7e",
+                  "jurisdiction": "가상도 비교시",
+                  "kind": "ordinance"
+                },
+                "baseline_candidates": [
+                  {
+                    "retrieval_score": 1.0,
+                    "evidence": {
+                      "id": "E-57bf2d83475d368ab69a",
+                      "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+                      "document_title": "[가상] 가상도 가상시 돌봄 지원 조례",
+                      "document_id": "user-8ad00e093946e956",
+                      "version": "",
+                      "article": "제3조",
+                      "article_key": "main:제3조",
+                      "text": "제3조(지원사업) 시장은 예산의 범위에서 돌봄 비용을 지원할 수 있다.",
+                      "source_url": "",
+                      "retrieved_at": "2026-09-21T17:19:11.601382+00:00",
+                      "effective_date": "",
+                      "source_state": "user_provided",
+                      "version_scope": "unknown",
+                      "content_hash": "891cd543c5ac608db6a71ed86669f888eff97b54e976445ce10ca6339851a268",
+                      "jurisdiction": "가상도 가상시",
+                      "kind": "ordinance"
+                    },
+                    "semantic_flags": [],
+                    "paragraphs_only_in_peer_candidate": []
+                  },
+                  {
+                    "retrieval_score": 0.168,
+                    "evidence": {
+                      "id": "E-621e2df55ec0df45c59f",
+                      "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+                      "document_title": "[가상] 가상도 가상시 돌봄 지원 조례",
+                      "document_id": "user-8ad00e093946e956",
+                      "version": "",
+                      "article": "제2조",
+                      "article_key": "main:제2조",
+                      "text": "제2조(지원대상) 지원대상은 「가상 돌봄지원법」 제5조의2에 따른 주민으로 한다.",
+                      "source_url": "",
+                      "retrieved_at": "2026-09-21T17:19:11.601382+00:00",
+                      "effective_date": "",
+                      "source_state": "user_provided",
+                      "version_scope": "unknown",
+                      "content_hash": "891cd543c5ac608db6a71ed86669f888eff97b54e976445ce10ca6339851a268",
+                      "jurisdiction": "가상도 가상시",
+                      "kind": "ordinance"
+                    },
+                    "semantic_flags": [
+                      "재량·의무·금지 표현 차이"
+                    ],
+                    "paragraphs_only_in_peer_candidate": [
+                      "시장은 예산의 범위에서 돌봄 비용을 지원할 수 있다."
+                    ]
+                  }
+                ],
+                "finding": "문자·기능 단서에 따른 대응 후보이며 법적 동등성 판단 아님"
+              },
+              {
+                "category": "possible_gap",
+                "peer": {
+                  "id": "E-773dc6a65fb586a73ff7",
+                  "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+                  "document_title": "[가상] 가상도 비교시 돌봄 지원 조례",
+                  "document_id": "user-f4dcc0440d78b277",
+                  "version": "",
+                  "article": "제4조",
+                  "article_key": "main:제4조",
+                  "text": "제4조(신청 및 결정) 신청인은 지원 신청서를 제출하며 시장은 선정기준에 따라 결정하고 결과를 통지한다.",
+                  "source_url": "",
+                  "retrieved_at": "2026-09-21T17:19:11.601602+00:00",
+                  "effective_date": "",
+                  "source_state": "user_provided",
+                  "version_scope": "unknown",
+                  "content_hash": "802db4c35ae593e05eb69a3b87a6cfe4dd7bfcf7fad96afa5f9619178de08d7e",
+                  "jurisdiction": "가상도 비교시",
+                  "kind": "ordinance"
+                },
+                "baseline_candidates": [
+                  {
+                    "retrieval_score": 0.0576,
+                    "evidence": {
+                      "id": "E-57bf2d83475d368ab69a",
+                      "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+                      "document_title": "[가상] 가상도 가상시 돌봄 지원 조례",
+                      "document_id": "user-8ad00e093946e956",
+                      "version": "",
+                      "article": "제3조",
+                      "article_key": "main:제3조",
+                      "text": "제3조(지원사업) 시장은 예산의 범위에서 돌봄 비용을 지원할 수 있다.",
+                      "source_url": "",
+                      "retrieved_at": "2026-09-21T17:19:11.601382+00:00",
+                      "effective_date": "",
+                      "source_state": "user_provided",
+                      "version_scope": "unknown",
+                      "content_hash": "891cd543c5ac608db6a71ed86669f888eff97b54e976445ce10ca6339851a268",
+                      "jurisdiction": "가상도 가상시",
+                      "kind": "ordinance"
+                    },
+                    "semantic_flags": [
+                      "재량·의무·금지 표현 차이"
+                    ],
+                    "paragraphs_only_in_peer_candidate": [
+                      "신청인은 지원 신청서를 제출하며 시장은 선정기준에 따라 결정하고 결과를 통지한다."
+                    ]
+                  },
+                  {
+                    "retrieval_score": 0.0079,
+                    "evidence": {
+                      "id": "E-f6484512bcfd31e4f236",
+                      "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+                      "document_title": "[가상] 가상도 가상시 돌봄 지원 조례",
+                      "document_id": "user-8ad00e093946e956",
+                      "version": "",
+                      "article": "제1조",
+                      "article_key": "main:제1조",
+                      "text": "제1조(목적) 이 조례는 주민의 돌봄 지원에 필요한 사항을 정한다.",
+                      "source_url": "",
+                      "retrieved_at": "2026-09-21T17:19:11.601382+00:00",
+                      "effective_date": "",
+                      "source_state": "user_provided",
+                      "version_scope": "unknown",
+                      "content_hash": "891cd543c5ac608db6a71ed86669f888eff97b54e976445ce10ca6339851a268",
+                      "jurisdiction": "가상도 가상시",
+                      "kind": "ordinance"
+                    },
+                    "semantic_flags": [],
+                    "paragraphs_only_in_peer_candidate": [
+                      "신청인은 지원 신청서를 제출하며 시장은 선정기준에 따라 결정하고 결과를 통지한다."
+                    ]
+                  }
+                ],
+                "finding": "문자·기능 단서에 따른 대응 후보이며 법적 동등성 판단 아님"
+              },
+              {
+                "category": "possible_gap",
+                "peer": {
+                  "id": "E-5f56e57e7dca288da728",
+                  "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+                  "document_title": "[가상] 가상도 비교시 돌봄 지원 조례",
+                  "document_id": "user-f4dcc0440d78b277",
+                  "version": "",
+                  "article": "제5조",
+                  "article_key": "main:제5조",
+                  "text": "제5조(중복지원 방지) 다른 제도에 따른 동일한 지원을 받는 경우에는 중복 지급 여부를 확인한다.",
+                  "source_url": "",
+                  "retrieved_at": "2026-09-21T17:19:11.601602+00:00",
+                  "effective_date": "",
+                  "source_state": "user_provided",
+                  "version_scope": "unknown",
+                  "content_hash": "802db4c35ae593e05eb69a3b87a6cfe4dd7bfcf7fad96afa5f9619178de08d7e",
+                  "jurisdiction": "가상도 비교시",
+                  "kind": "ordinance"
+                },
+                "baseline_candidates": [
+                  {
+                    "retrieval_score": 0.1436,
+                    "evidence": {
+                      "id": "E-621e2df55ec0df45c59f",
+                      "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+                      "document_title": "[가상] 가상도 가상시 돌봄 지원 조례",
+                      "document_id": "user-8ad00e093946e956",
+                      "version": "",
+                      "article": "제2조",
+                      "article_key": "main:제2조",
+                      "text": "제2조(지원대상) 지원대상은 「가상 돌봄지원법」 제5조의2에 따른 주민으로 한다.",
+                      "source_url": "",
+                      "retrieved_at": "2026-09-21T17:19:11.601382+00:00",
+                      "effective_date": "",
+                      "source_state": "user_provided",
+                      "version_scope": "unknown",
+                      "content_hash": "891cd543c5ac608db6a71ed86669f888eff97b54e976445ce10ca6339851a268",
+                      "jurisdiction": "가상도 가상시",
+                      "kind": "ordinance"
+                    },
+                    "semantic_flags": [],
+                    "paragraphs_only_in_peer_candidate": [
+                      "다른 제도에 따른 동일한 지원을 받는 경우에는 중복 지급 여부를 확인한다."
+                    ]
+                  },
+                  {
+                    "retrieval_score": 0.12,
+                    "evidence": {
+                      "id": "E-57bf2d83475d368ab69a",
+                      "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+                      "document_title": "[가상] 가상도 가상시 돌봄 지원 조례",
+                      "document_id": "user-8ad00e093946e956",
+                      "version": "",
+                      "article": "제3조",
+                      "article_key": "main:제3조",
+                      "text": "제3조(지원사업) 시장은 예산의 범위에서 돌봄 비용을 지원할 수 있다.",
+                      "source_url": "",
+                      "retrieved_at": "2026-09-21T17:19:11.601382+00:00",
+                      "effective_date": "",
+                      "source_state": "user_provided",
+                      "version_scope": "unknown",
+                      "content_hash": "891cd543c5ac608db6a71ed86669f888eff97b54e976445ce10ca6339851a268",
+                      "jurisdiction": "가상도 가상시",
+                      "kind": "ordinance"
+                    },
+                    "semantic_flags": [
+                      "재량·의무·금지 표현 차이"
+                    ],
+                    "paragraphs_only_in_peer_candidate": [
+                      "다른 제도에 따른 동일한 지원을 받는 경우에는 중복 지급 여부를 확인한다."
+                    ]
+                  }
+                ],
+                "finding": "문자·기능 단서에 따른 대응 후보이며 법적 동등성 판단 아님"
+              },
+              {
+                "category": "possible_gap",
+                "peer": {
+                  "id": "E-2ff748c82f30a1dcd2ee",
+                  "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+                  "document_title": "[가상] 가상도 비교시 돌봄 지원 조례",
+                  "document_id": "user-f4dcc0440d78b277",
+                  "version": "",
+                  "article": "제6조",
+                  "article_key": "main:제6조",
+                  "text": "제6조(사업평가) 시장은 사업의 성과를 평가하고 결과를 다음 연도 계획에 반영한다.",
+                  "source_url": "",
+                  "retrieved_at": "2026-09-21T17:19:11.601602+00:00",
+                  "effective_date": "",
+                  "source_state": "user_provided",
+                  "version_scope": "unknown",
+                  "content_hash": "802db4c35ae593e05eb69a3b87a6cfe4dd7bfcf7fad96afa5f9619178de08d7e",
+                  "jurisdiction": "가상도 비교시",
+                  "kind": "ordinance"
+                },
+                "baseline_candidates": [
+                  {
+                    "retrieval_score": 0.2177,
+                    "evidence": {
+                      "id": "E-57bf2d83475d368ab69a",
+                      "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+                      "document_title": "[가상] 가상도 가상시 돌봄 지원 조례",
+                      "document_id": "user-8ad00e093946e956",
+                      "version": "",
+                      "article": "제3조",
+                      "article_key": "main:제3조",
+                      "text": "제3조(지원사업) 시장은 예산의 범위에서 돌봄 비용을 지원할 수 있다.",
+                      "source_url": "",
+                      "retrieved_at": "2026-09-21T17:19:11.601382+00:00",
+                      "effective_date": "",
+                      "source_state": "user_provided",
+                      "version_scope": "unknown",
+                      "content_hash": "891cd543c5ac608db6a71ed86669f888eff97b54e976445ce10ca6339851a268",
+                      "jurisdiction": "가상도 가상시",
+                      "kind": "ordinance"
+                    },
+                    "semantic_flags": [
+                      "재량·의무·금지 표현 차이"
+                    ],
+                    "paragraphs_only_in_peer_candidate": [
+                      "시장은 사업의 성과를 평가하고 결과를 다음 연도 계획에 반영한다."
+                    ]
+                  },
+                  {
+                    "retrieval_score": 0.009,
+                    "evidence": {
+                      "id": "E-f6484512bcfd31e4f236",
+                      "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+                      "document_title": "[가상] 가상도 가상시 돌봄 지원 조례",
+                      "document_id": "user-8ad00e093946e956",
+                      "version": "",
+                      "article": "제1조",
+                      "article_key": "main:제1조",
+                      "text": "제1조(목적) 이 조례는 주민의 돌봄 지원에 필요한 사항을 정한다.",
+                      "source_url": "",
+                      "retrieved_at": "2026-09-21T17:19:11.601382+00:00",
+                      "effective_date": "",
+                      "source_state": "user_provided",
+                      "version_scope": "unknown",
+                      "content_hash": "891cd543c5ac608db6a71ed86669f888eff97b54e976445ce10ca6339851a268",
+                      "jurisdiction": "가상도 가상시",
+                      "kind": "ordinance"
+                    },
+                    "semantic_flags": [],
+                    "paragraphs_only_in_peer_candidate": [
+                      "시장은 사업의 성과를 평가하고 결과를 다음 연도 계획에 반영한다."
+                    ]
+                  }
+                ],
+                "finding": "문자·기능 단서에 따른 대응 후보이며 법적 동등성 판단 아님"
+              }
+            ]
+          }
+        ],
+        "dimension_matrix": [
+          {
+            "dimension": "목적·정의",
+            "cells": [
+              {
+                "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+                "observed": true,
+                "evidence_ids": [
+                  "E-f6484512bcfd31e4f236"
+                ]
+              },
+              {
+                "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+                "observed": true,
+                "evidence_ids": [
+                  "E-c83e650a52f943b3cb00"
+                ]
+              }
+            ]
+          },
+          {
+            "dimension": "소관사무·책무",
+            "cells": [
+              {
+                "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+                "observed": true,
+                "evidence_ids": [
+                  "E-57bf2d83475d368ab69a"
+                ]
+              },
+              {
+                "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+                "observed": true,
+                "evidence_ids": [
+                  "E-249ce08be2478fbac8f7",
+                  "E-773dc6a65fb586a73ff7",
+                  "E-2ff748c82f30a1dcd2ee"
+                ]
+              }
+            ]
+          },
+          {
+            "dimension": "지원대상·제외",
+            "cells": [
+              {
+                "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+                "observed": true,
+                "evidence_ids": [
+                  "E-621e2df55ec0df45c59f"
+                ]
+              },
+              {
+                "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+                "observed": true,
+                "evidence_ids": [
+                  "E-8d3ab6a793e04f7a8054"
+                ]
+              }
+            ]
+          },
+          {
+            "dimension": "지원내용·금액",
+            "cells": [
+              {
+                "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+                "observed": true,
+                "evidence_ids": [
+                  "E-57bf2d83475d368ab69a"
+                ]
+              },
+              {
+                "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+                "observed": true,
+                "evidence_ids": [
+                  "E-249ce08be2478fbac8f7"
+                ]
+              }
+            ]
+          },
+          {
+            "dimension": "신청·선정",
+            "cells": [
+              {
+                "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+                "observed": false,
+                "evidence_ids": []
+              },
+              {
+                "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+                "observed": true,
+                "evidence_ids": [
+                  "E-773dc6a65fb586a73ff7"
+                ]
+              }
+            ]
+          },
+          {
+            "dimension": "지급·중복방지",
+            "cells": [
+              {
+                "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+                "observed": false,
+                "evidence_ids": []
+              },
+              {
+                "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+                "observed": true,
+                "evidence_ids": [
+                  "E-5f56e57e7dca288da728"
+                ]
+              }
+            ]
+          },
+          {
+            "dimension": "중지·환수·이의",
+            "cells": [
+              {
+                "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+                "observed": false,
+                "evidence_ids": []
+              },
+              {
+                "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+                "observed": false,
+                "evidence_ids": []
+              }
+            ]
+          },
+          {
+            "dimension": "위원회·제척회피",
+            "cells": [
+              {
+                "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+                "observed": false,
+                "evidence_ids": []
+              },
+              {
+                "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+                "observed": false,
+                "evidence_ids": []
+              }
+            ]
+          },
+          {
+            "dimension": "위탁·공유재산",
+            "cells": [
+              {
+                "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+                "observed": false,
+                "evidence_ids": []
+              },
+              {
+                "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+                "observed": false,
+                "evidence_ids": []
+              }
+            ]
+          },
+          {
+            "dimension": "개인정보·기록",
+            "cells": [
+              {
+                "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+                "observed": false,
+                "evidence_ids": []
+              },
+              {
+                "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+                "observed": false,
+                "evidence_ids": []
+              }
+            ]
+          },
+          {
+            "dimension": "점검·평가·공개",
+            "cells": [
+              {
+                "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+                "observed": false,
+                "evidence_ids": []
+              },
+              {
+                "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+                "observed": true,
+                "evidence_ids": [
+                  "E-2ff748c82f30a1dcd2ee"
+                ]
+              }
+            ]
+          },
+          {
+            "dimension": "시행·경과·서식",
+            "cells": [
+              {
+                "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+                "observed": false,
+                "evidence_ids": []
+              },
+              {
+                "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+                "observed": false,
+                "evidence_ids": []
+              }
+            ]
+          }
+        ],
+        "method": "제목 0.30 + 본문 3글자 집합 0.55 + 기능단서 0.15. 법적 적합성 점수 아님",
+        "coverage": {
+          "pairs_compared": 18,
+          "unprocessed_articles": 0,
+          "comparison_complete": true
+        },
+        "guardrails": [
+          "조항 수가 많거나 여러 지자체가 채택했다고 우수·적법한 것은 아닙니다.",
+          "possible_gap은 기능이 다른 조문·다른 조례·상위법에 있을 수 있는 검토 후보입니다.",
+          "대상·사무·재정·광역/기초 권한·시행시점을 확인한 후 적용하세요."
+        ]
+      },
+      "model": {
+        "status": "not_requested"
+      }
+    },
+    {
+      "id": "A5",
+      "name": "개정영향·연계정비",
+      "goal": "구·신 상위법 변경이 조례·부칙·별표·규칙·업무에 미치는 영향을 검토한다.",
+      "method": "deterministic_rules",
+      "status": "completed",
+      "duration_seconds": 0.0,
+      "result": {
+        "status": "version_pair_missing",
+        "impacts": [],
+        "warning": "구·신 상위법의 식별자·시행일이 필요합니다."
+      },
+      "model": {
+        "status": "not_requested"
+      }
+    },
+    {
+      "id": "A6",
+      "name": "재정·절차·집행가능성",
+      "goal": "예산·인력·사전협의·평가·입법절차·시스템 정비를 확인한다.",
+      "method": "deterministic_rules",
+      "status": "completed",
+      "duration_seconds": 0.0,
+      "result": {
+        "steps": [
+          {
+            "name": "소관사무·입법형식",
+            "applicability": "항상",
+            "owner_role": "사업부서+법무부서",
+            "check": "조례가 필요한지, 기존 조례·규칙·지침·예산 집행으로 가능한지 비교",
+            "completed": false
+          },
+          {
+            "name": "입법예고",
+            "applicability": "적용·예외 확인",
+            "owner_role": "입안부서",
+            "check": "행정절차법·지방자치법·우리 입법절차 조례상 기간/예외·제출주체 확인",
+            "completed": false
+          },
+          {
+            "name": "비용추계·예산협의",
+            "applicability": "재정수반 여부 확인",
+            "owner_role": "예산부서",
+            "check": "우리 비용추계 조례의 대상·기준금액·면제사유; 재원·연도별 수요 확인",
+            "completed": false
+          },
+          {
+            "name": "규제심사",
+            "applicability": "규제 해당 여부 확인",
+            "owner_role": "규제업무부서",
+            "check": "권리제한·의무 신설/강화 여부와 심사 절차 확인",
+            "completed": false
+          },
+          {
+            "name": "성별영향평가",
+            "applicability": "대상·제외 확인",
+            "owner_role": "성별영향평가 담당",
+            "check": "성별영향평가법과 해당 기관 운영기준 확인",
+            "completed": false
+          },
+          {
+            "name": "부패영향평가",
+            "applicability": "대상·운영기준 확인",
+            "owner_role": "감사부서",
+            "check": "특혜·재량·대상선정·이해충돌 기준 확인",
+            "completed": false
+          },
+          {
+            "name": "사회보장 협의",
+            "applicability": "복지성 제도 여부 확인",
+            "owner_role": "복지부서",
+            "check": "사회보장기본법상 신설·변경 협의 대상 확인",
+            "completed": false
+          },
+          {
+            "name": "개인정보 검토",
+            "applicability": "개인정보 처리 여부 확인",
+            "owner_role": "개인정보보호 담당",
+            "check": "수집항목·법적근거·위탁·보유기간·시스템 영향 확인",
+            "completed": false
+          },
+          {
+            "name": "조례규칙심의회·의회",
+            "applicability": "제출주체별 확인",
+            "owner_role": "법무부서+의회협력 담당",
+            "check": "단체장 제출/의원 발의/주민청구에 맞는 심의·의결 경로 확인",
+            "completed": false
+          },
+          {
+            "name": "공포·시행 준비",
+            "applicability": "의결 후 확인",
+            "owner_role": "입안부서+법무부서",
+            "check": "공포·시행일, 경과조치, 서식·홈페이지·시스템·직원교육 정비",
+            "completed": false
+          }
+        ],
+        "budget_template": {
+          "beneficiaries": null,
+          "unit_cost": null,
+          "frequency": null,
+          "operating_cost": null,
+          "formula": "지원대상 수 × 단가 × 지원횟수 + 운영비 (사업에 맞게 수정)",
+          "amounts_are_estimates": true
+        },
+        "warning": "법정 기간·임계금액·부서명·연락처는 추정하지 않습니다. 실제 법령/우리 조례/조직도에서 확인하세요."
+      },
+      "model": {
+        "status": "not_requested"
+      }
+    },
+    {
+      "id": "A7",
+      "name": "입안·개정안작성",
+      "goal": "선행 검토를 토대로 검토용 조문 골격·제안이유·신구대비 후보를 작성한다.",
+      "method": "deterministic_rules",
+      "status": "completed",
+      "duration_seconds": 0.0,
+      "result": {
+        "status": "working_outline_not_submission_ready",
+        "legislative_options": {
+          "recommended_review_order": [
+            "기존 법령·조례에 따른 집행",
+            "기존 조례 일부개정",
+            "별도 조례 제정",
+            "규칙·지침 정비",
+            "추진 유보 또는 사업 재설계"
+          ],
+          "baseline_identified": true,
+          "provisional_path": "기존 조례의 적용범위·개정 필요성 우선 검토",
+          "options": [
+            {
+              "path": "existing_authority",
+              "condition": "소관사무·대상·지원방식이 현행 근거에 포함되고 예산·절차 요건을 충족하는지 확인",
+              "benefit": "불필요한 중복 입법 방지"
+            },
+            {
+              "path": "amend",
+              "condition": "기존 조례 목적에 부합하지만 대상·사업·절차·위임사항 정비가 필요한지 확인",
+              "benefit": "기존 집행체계와 연속성 유지"
+            },
+            {
+              "path": "enact",
+              "condition": "별도 입법의 필요성·권한·독립적 규율대상·기존 조례와의 관계가 확인되는지 검토",
+              "benefit": "새로운 제도의 체계적 근거 마련"
+            },
+            {
+              "path": "rule_or_guideline",
+              "condition": "법률·조례가 허용한 집행 세부사항인지 확인; 권리제한·본질적 사항을 지침으로 신설하지 않음",
+              "benefit": "입법형식과 규율 수준의 적정화"
+            },
+            {
+              "path": "defer_or_redesign",
+              "condition": "권한·상위법·재원·협의 요건이 충족되지 않거나 효과가 불명확한 경우",
+              "benefit": "위법·중복·집행불능 위험 예방"
+            }
+          ],
+          "decision": "human_confirmation_required",
+          "topic": "돌봄 지원",
+          "warning": "다른 지자체의 제정 사실이나 검색 0건만으로 우리 기관의 제정 필요성을 확정하지 않습니다."
+        },
+        "suggested_title": "가상도 가상시 돌봄 지원 조례안",
+        "enactment_outline": "가상도 가상시 돌봄 지원 조례안\n※ 검토용 골격: 대괄호를 모두 해소하고 법무·사업·예산 검토를 거쳐야 합니다.\n제1조(목적) 이 조례는 [소관사무·정책목표]에 관한 사항을 정함으로써 [주민 편익·공익]에 이바지함을 목적으로 한다.\n제2조(정의) 이 조례에서 사용하는 용어의 뜻은 [상위법 정의와의 일치 및 별도 정의 필요성 확인]과 같다.\n제3조(적용범위) [적용대상·지역·다른 법령 또는 조례와의 관계를 확인하여 규정한다].\n제4조(추진주체 및 사업) [권한 있는 기관·사업범위·기존 사업과의 중복 여부를 확인하여 규정한다].\n제5조(신청 및 결정) [신청이 필요한 사업인 경우에만 대상·선정기준·처리절차·결과통지를 규정한다].\n제6조(재정지원) [지원근거가 확인된 경우에만 범위·재원·중복방지·정산 등 필요한 사항을 규정한다].\n제7조(사업관리) [사업 특성에 맞는 점검·성과평가·기록관리 및 공개범위를 규정한다].\n제8조(권익보호) [개인정보·불복·환수 등의 적용 법령을 확인하고 필요한 사항만 규정한다].\n부칙\n제1조(시행일) 이 조례는 [상위법 시행일·공포·예산·시스템 준비를 반영한 날짜]부터 시행한다.\n제2조(경과조치) [종전 신청·지원·위탁·위원 등의 보호가 필요한 경우 구체적으로 규정한다].",
+        "amendment_candidates": [
+          {
+            "topic": "제4조",
+            "peer_title": "[가상] 가상도 비교시 돌봄 지원 조례",
+            "evidence_ids": [
+              "E-773dc6a65fb586a73ff7"
+            ],
+            "action": "우리 조례·다른 조례·상위법의 대체 기능 여부와 도입 필요성 검토"
+          },
+          {
+            "topic": "제5조",
+            "peer_title": "[가상] 가상도 비교시 돌봄 지원 조례",
+            "evidence_ids": [
+              "E-5f56e57e7dca288da728"
+            ],
+            "action": "우리 조례·다른 조례·상위법의 대체 기능 여부와 도입 필요성 검토"
+          },
+          {
+            "topic": "제6조",
+            "peer_title": "[가상] 가상도 비교시 돌봄 지원 조례",
+            "evidence_ids": [
+              "E-2ff748c82f30a1dcd2ee"
+            ],
+            "action": "우리 조례·다른 조례·상위법의 대체 기능 여부와 도입 필요성 검토"
+          }
+        ],
+        "amendment_draft_status": "원문과 변경문구를 확정한 후 jachi_draft_amendment로 신구대비·일부개정문 생성",
+        "proposal_reason_template": {
+          "problem": "[가상 시연] 주민 돌봄서비스의 신청·선정 기준을 명확히 하고 중복지원 방지 및 성과평가 절차를 검토한다.",
+          "why_existing_framework_insufficient": "[현행 규정으로 해결되지 않는 이유와 근거]",
+          "expected_effect": "[검증 가능한 성과지표]",
+          "evidence": "[공식 조문·비교사례·업무자료]"
+        },
+        "submission_ready": false,
+        "auto_published": false,
+        "warning": "모든 예시 조항이 필수라는 뜻이 아닙니다. 불필요한 조항·위원회·위탁·지원 근거를 신설하지 마세요.",
+        "constraints_from_team": {
+          "authority_and_rights_checks": [
+            {
+              "id": "R03",
+              "topic": "지원금·보조금",
+              "status": "review_required",
+              "priority": "normal",
+              "trigger_evidence_ids": [
+                "E-57bf2d83475d368ab69a",
+                "E-249ce08be2478fbac8f7"
+              ],
+              "triggered_by_project": false,
+              "action": "지방재정·지방보조금 법령, 공익성·지원근거·중복지원·집행절차 확인",
+              "rule_basis_type": "screening_checklist_not_legal_determination",
+              "method_reference": "https://opinion.lawmaking.go.kr/lmKnlg/loPlanGud"
+            },
+            {
+              "id": "R04",
+              "topic": "사회보장 신설·변경",
+              "status": "review_required",
+              "priority": "normal",
+              "trigger_evidence_ids": [
+                "E-f6484512bcfd31e4f236",
+                "E-621e2df55ec0df45c59f",
+                "E-57bf2d83475d368ab69a",
+                "E-c83e650a52f943b3cb00",
+                "E-8d3ab6a793e04f7a8054",
+                "E-249ce08be2478fbac8f7",
+                "E-5f56e57e7dca288da728"
+              ],
+              "triggered_by_project": true,
+              "action": "사회보장제도 신설·변경 협의 대상 여부 및 협의 진행상태 확인",
+              "rule_basis_type": "screening_checklist_not_legal_determination",
+              "method_reference": "https://opinion.lawmaking.go.kr/lmKnlg/loPlanGud"
+            },
+            {
+              "id": "R11",
+              "topic": "중복·충돌",
+              "status": "review_required",
+              "priority": "normal",
+              "trigger_evidence_ids": [
+                "E-f6484512bcfd31e4f236",
+                "E-c83e650a52f943b3cb00"
+              ],
+              "triggered_by_project": false,
+              "action": "우리 자치법규·상위법의 정의·적용대상·위원회·지원기준 중복 확인",
+              "rule_basis_type": "screening_checklist_not_legal_determination",
+              "method_reference": "https://opinion.lawmaking.go.kr/lmKnlg/loPlanGud"
+            },
+            {
+              "id": "R12",
+              "topic": "계획·평가",
+              "status": "review_required",
+              "priority": "normal",
+              "trigger_evidence_ids": [
+                "E-2ff748c82f30a1dcd2ee"
+              ],
+              "triggered_by_project": true,
+              "action": "주기·주체·결과활용·공개범위·추가 행정부담 확인",
+              "rule_basis_type": "screening_checklist_not_legal_determination",
+              "method_reference": "https://opinion.lawmaking.go.kr/lmKnlg/loPlanGud"
+            }
+          ],
+          "citations_to_verify": [
+            {
+              "law_title": "가상 돌봄지원법",
+              "article": "제5조의2",
+              "paragraph": "",
+              "item": "",
+              "quote": "「가상 돌봄지원법」 제5조의2",
+              "versions": [
+                {
+                  "document_identity": "law:user-b32112d4e3f3739d::unknown:8e1aaa282237cb60",
+                  "status": "article_present",
+                  "evidence_id": "E-3f4110a6b699152a7bf2",
+                  "temporal": {
+                    "state": "effective_date_unknown",
+                    "as_of": "2026-09-22",
+                    "version_current_verified": false,
+                    "caveat": "시행일이 과거라는 사실만으로 해당 기준일의 현행본임이 증명되지 않습니다. 후속개정·조문별 시행일·부칙을 확인하세요."
+                  },
+                  "source_state": "user_provided",
+                  "subdivision_status": "not_requested"
+                }
+              ],
+              "warning": "조문 존재 확인은 인용 취지의 정확성·사업 근거·위임 적합성 검증과 다릅니다."
+            }
+          ],
+          "amendment_impact": {
+            "status": "version_pair_missing",
+            "impacts": [],
+            "warning": "구·신 상위법의 식별자·시행일이 필요합니다."
+          },
+          "procedural_dependencies": [
+            {
+              "name": "소관사무·입법형식",
+              "applicability": "항상",
+              "owner_role": "사업부서+법무부서",
+              "check": "조례가 필요한지, 기존 조례·규칙·지침·예산 집행으로 가능한지 비교",
+              "completed": false
+            },
+            {
+              "name": "입법예고",
+              "applicability": "적용·예외 확인",
+              "owner_role": "입안부서",
+              "check": "행정절차법·지방자치법·우리 입법절차 조례상 기간/예외·제출주체 확인",
+              "completed": false
+            },
+            {
+              "name": "비용추계·예산협의",
+              "applicability": "재정수반 여부 확인",
+              "owner_role": "예산부서",
+              "check": "우리 비용추계 조례의 대상·기준금액·면제사유; 재원·연도별 수요 확인",
+              "completed": false
+            },
+            {
+              "name": "규제심사",
+              "applicability": "규제 해당 여부 확인",
+              "owner_role": "규제업무부서",
+              "check": "권리제한·의무 신설/강화 여부와 심사 절차 확인",
+              "completed": false
+            },
+            {
+              "name": "성별영향평가",
+              "applicability": "대상·제외 확인",
+              "owner_role": "성별영향평가 담당",
+              "check": "성별영향평가법과 해당 기관 운영기준 확인",
+              "completed": false
+            },
+            {
+              "name": "부패영향평가",
+              "applicability": "대상·운영기준 확인",
+              "owner_role": "감사부서",
+              "check": "특혜·재량·대상선정·이해충돌 기준 확인",
+              "completed": false
+            },
+            {
+              "name": "사회보장 협의",
+              "applicability": "복지성 제도 여부 확인",
+              "owner_role": "복지부서",
+              "check": "사회보장기본법상 신설·변경 협의 대상 확인",
+              "completed": false
+            },
+            {
+              "name": "개인정보 검토",
+              "applicability": "개인정보 처리 여부 확인",
+              "owner_role": "개인정보보호 담당",
+              "check": "수집항목·법적근거·위탁·보유기간·시스템 영향 확인",
+              "completed": false
+            },
+            {
+              "name": "조례규칙심의회·의회",
+              "applicability": "제출주체별 확인",
+              "owner_role": "법무부서+의회협력 담당",
+              "check": "단체장 제출/의원 발의/주민청구에 맞는 심의·의결 경로 확인",
+              "completed": false
+            },
+            {
+              "name": "공포·시행 준비",
+              "applicability": "의결 후 확인",
+              "owner_role": "입안부서+법무부서",
+              "check": "공포·시행일, 경과조치, 서식·홈페이지·시스템·직원교육 정비",
+              "completed": false
+            }
+          ],
+          "source_errors": [],
+          "draft_block_policy": "미확인 위임·법적 근거·기한은 확정 조문으로 자동 삽입하지 않음"
+        },
+        "model_proposed_clauses": {
+          "accepted": [],
+          "rejected": []
+        }
+      },
+      "model": {
+        "status": "not_requested"
+      }
+    },
+    {
+      "id": "A8",
+      "name": "반대검토·근거감사",
+      "goal": "미확인 출처·시점·반대근거·오류를 모아 자동 확정 없이 사람 검토 대상으로 넘긴다.",
+      "method": "deterministic_rules",
+      "status": "completed",
+      "duration_seconds": 0.0,
+      "result": {
+        "status": "human_review_required",
+        "legal_approval": false,
+        "submission_ready": false,
+        "blocking_or_pending_items": [
+          "[가상] 가상도 가상시 돌봄 지원 조례: 공식 최신 원문 확인 필요(user_provided).",
+          "[가상] 가상도 가상시 돌봄 지원 조례: 해당 기준일 적용 버전·조문별 시행일 확인 필요(effective_date_unknown).",
+          "[가상] 가상도 가상시 돌봄 지원 조례: 사용자 제공 문서: 공식 원문·시행일·완전성은 검증되지 않았습니다.",
+          "[가상] 가상도 비교시 돌봄 지원 조례: 공식 최신 원문 확인 필요(user_provided).",
+          "[가상] 가상도 비교시 돌봄 지원 조례: 해당 기준일 적용 버전·조문별 시행일 확인 필요(effective_date_unknown).",
+          "[가상] 가상도 비교시 돌봄 지원 조례: 사용자 제공 문서: 공식 원문·시행일·완전성은 검증되지 않았습니다.",
+          "가상 돌봄지원법: 공식 최신 원문 확인 필요(user_provided).",
+          "가상 돌봄지원법: 해당 기준일 적용 버전·조문별 시행일 확인 필요(effective_date_unknown).",
+          "가상 돌봄지원법: 사용자 제공 문서: 공식 원문·시행일·완전성은 검증되지 않았습니다.",
+          "법무·사업·예산 등 담당자의 최종 법적 판단 및 입법절차 확인이 필요합니다."
+        ],
+        "rejected_model_claims": 0,
+        "no_majority_vote_on_law": true,
+        "decision_policy": "근거 없는 주장·상충 근거·미확인 적용시점은 다수결로 통과시키지 않습니다."
+      },
+      "model": {
+        "status": "not_requested"
+      }
+    }
+  ],
+  "evidence": {
+    "E-f6484512bcfd31e4f236": {
+      "id": "E-f6484512bcfd31e4f236",
+      "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+      "document_title": "[가상] 가상도 가상시 돌봄 지원 조례",
+      "document_id": "user-8ad00e093946e956",
+      "version": "",
+      "article": "제1조",
+      "article_key": "main:제1조",
+      "text": "제1조(목적) 이 조례는 주민의 돌봄 지원에 필요한 사항을 정한다.",
+      "source_url": "",
+      "retrieved_at": "2026-09-21T17:19:11.601382+00:00",
+      "effective_date": "",
+      "source_state": "user_provided",
+      "version_scope": "unknown",
+      "content_hash": "891cd543c5ac608db6a71ed86669f888eff97b54e976445ce10ca6339851a268",
+      "jurisdiction": "가상도 가상시",
+      "kind": "ordinance"
+    },
+    "E-621e2df55ec0df45c59f": {
+      "id": "E-621e2df55ec0df45c59f",
+      "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+      "document_title": "[가상] 가상도 가상시 돌봄 지원 조례",
+      "document_id": "user-8ad00e093946e956",
+      "version": "",
+      "article": "제2조",
+      "article_key": "main:제2조",
+      "text": "제2조(지원대상) 지원대상은 「가상 돌봄지원법」 제5조의2에 따른 주민으로 한다.",
+      "source_url": "",
+      "retrieved_at": "2026-09-21T17:19:11.601382+00:00",
+      "effective_date": "",
+      "source_state": "user_provided",
+      "version_scope": "unknown",
+      "content_hash": "891cd543c5ac608db6a71ed86669f888eff97b54e976445ce10ca6339851a268",
+      "jurisdiction": "가상도 가상시",
+      "kind": "ordinance"
+    },
+    "E-57bf2d83475d368ab69a": {
+      "id": "E-57bf2d83475d368ab69a",
+      "document_identity": "ordinance:user-8ad00e093946e956::unknown:891cd543c5ac608d",
+      "document_title": "[가상] 가상도 가상시 돌봄 지원 조례",
+      "document_id": "user-8ad00e093946e956",
+      "version": "",
+      "article": "제3조",
+      "article_key": "main:제3조",
+      "text": "제3조(지원사업) 시장은 예산의 범위에서 돌봄 비용을 지원할 수 있다.",
+      "source_url": "",
+      "retrieved_at": "2026-09-21T17:19:11.601382+00:00",
+      "effective_date": "",
+      "source_state": "user_provided",
+      "version_scope": "unknown",
+      "content_hash": "891cd543c5ac608db6a71ed86669f888eff97b54e976445ce10ca6339851a268",
+      "jurisdiction": "가상도 가상시",
+      "kind": "ordinance"
+    },
+    "E-c83e650a52f943b3cb00": {
+      "id": "E-c83e650a52f943b3cb00",
+      "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+      "document_title": "[가상] 가상도 비교시 돌봄 지원 조례",
+      "document_id": "user-f4dcc0440d78b277",
+      "version": "",
+      "article": "제1조",
+      "article_key": "main:제1조",
+      "text": "제1조(목적) 이 조례는 주민의 돌봄 지원과 관리에 필요한 사항을 정한다.",
+      "source_url": "",
+      "retrieved_at": "2026-09-21T17:19:11.601602+00:00",
+      "effective_date": "",
+      "source_state": "user_provided",
+      "version_scope": "unknown",
+      "content_hash": "802db4c35ae593e05eb69a3b87a6cfe4dd7bfcf7fad96afa5f9619178de08d7e",
+      "jurisdiction": "가상도 비교시",
+      "kind": "ordinance"
+    },
+    "E-8d3ab6a793e04f7a8054": {
+      "id": "E-8d3ab6a793e04f7a8054",
+      "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+      "document_title": "[가상] 가상도 비교시 돌봄 지원 조례",
+      "document_id": "user-f4dcc0440d78b277",
+      "version": "",
+      "article": "제2조",
+      "article_key": "main:제2조",
+      "text": "제2조(지원대상) 돌봄이 필요한 주민을 지원대상으로 한다.",
+      "source_url": "",
+      "retrieved_at": "2026-09-21T17:19:11.601602+00:00",
+      "effective_date": "",
+      "source_state": "user_provided",
+      "version_scope": "unknown",
+      "content_hash": "802db4c35ae593e05eb69a3b87a6cfe4dd7bfcf7fad96afa5f9619178de08d7e",
+      "jurisdiction": "가상도 비교시",
+      "kind": "ordinance"
+    },
+    "E-249ce08be2478fbac8f7": {
+      "id": "E-249ce08be2478fbac8f7",
+      "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+      "document_title": "[가상] 가상도 비교시 돌봄 지원 조례",
+      "document_id": "user-f4dcc0440d78b277",
+      "version": "",
+      "article": "제3조",
+      "article_key": "main:제3조",
+      "text": "제3조(지원사업) 시장은 예산의 범위에서 돌봄 비용을 지원할 수 있다.",
+      "source_url": "",
+      "retrieved_at": "2026-09-21T17:19:11.601602+00:00",
+      "effective_date": "",
+      "source_state": "user_provided",
+      "version_scope": "unknown",
+      "content_hash": "802db4c35ae593e05eb69a3b87a6cfe4dd7bfcf7fad96afa5f9619178de08d7e",
+      "jurisdiction": "가상도 비교시",
+      "kind": "ordinance"
+    },
+    "E-773dc6a65fb586a73ff7": {
+      "id": "E-773dc6a65fb586a73ff7",
+      "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+      "document_title": "[가상] 가상도 비교시 돌봄 지원 조례",
+      "document_id": "user-f4dcc0440d78b277",
+      "version": "",
+      "article": "제4조",
+      "article_key": "main:제4조",
+      "text": "제4조(신청 및 결정) 신청인은 지원 신청서를 제출하며 시장은 선정기준에 따라 결정하고 결과를 통지한다.",
+      "source_url": "",
+      "retrieved_at": "2026-09-21T17:19:11.601602+00:00",
+      "effective_date": "",
+      "source_state": "user_provided",
+      "version_scope": "unknown",
+      "content_hash": "802db4c35ae593e05eb69a3b87a6cfe4dd7bfcf7fad96afa5f9619178de08d7e",
+      "jurisdiction": "가상도 비교시",
+      "kind": "ordinance"
+    },
+    "E-5f56e57e7dca288da728": {
+      "id": "E-5f56e57e7dca288da728",
+      "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+      "document_title": "[가상] 가상도 비교시 돌봄 지원 조례",
+      "document_id": "user-f4dcc0440d78b277",
+      "version": "",
+      "article": "제5조",
+      "article_key": "main:제5조",
+      "text": "제5조(중복지원 방지) 다른 제도에 따른 동일한 지원을 받는 경우에는 중복 지급 여부를 확인한다.",
+      "source_url": "",
+      "retrieved_at": "2026-09-21T17:19:11.601602+00:00",
+      "effective_date": "",
+      "source_state": "user_provided",
+      "version_scope": "unknown",
+      "content_hash": "802db4c35ae593e05eb69a3b87a6cfe4dd7bfcf7fad96afa5f9619178de08d7e",
+      "jurisdiction": "가상도 비교시",
+      "kind": "ordinance"
+    },
+    "E-2ff748c82f30a1dcd2ee": {
+      "id": "E-2ff748c82f30a1dcd2ee",
+      "document_identity": "ordinance:user-f4dcc0440d78b277::unknown:802db4c35ae593e0",
+      "document_title": "[가상] 가상도 비교시 돌봄 지원 조례",
+      "document_id": "user-f4dcc0440d78b277",
+      "version": "",
+      "article": "제6조",
+      "article_key": "main:제6조",
+      "text": "제6조(사업평가) 시장은 사업의 성과를 평가하고 결과를 다음 연도 계획에 반영한다.",
+      "source_url": "",
+      "retrieved_at": "2026-09-21T17:19:11.601602+00:00",
+      "effective_date": "",
+      "source_state": "user_provided",
+      "version_scope": "unknown",
+      "content_hash": "802db4c35ae593e05eb69a3b87a6cfe4dd7bfcf7fad96afa5f9619178de08d7e",
+      "jurisdiction": "가상도 비교시",
+      "kind": "ordinance"
+    },
+    "E-5d47807c1247d129a5fc": {
+      "id": "E-5d47807c1247d129a5fc",
+      "document_identity": "law:user-b32112d4e3f3739d::unknown:8e1aaa282237cb60",
+      "document_title": "가상 돌봄지원법",
+      "document_id": "user-b32112d4e3f3739d",
+      "version": "",
+      "article": "제1조",
+      "article_key": "main:제1조",
+      "text": "제1조(목적) 이 법은 시연을 위한 가상 법령이다.",
+      "source_url": "",
+      "retrieved_at": "2026-09-21T17:19:11.601729+00:00",
+      "effective_date": "",
+      "source_state": "user_provided",
+      "version_scope": "unknown",
+      "content_hash": "8e1aaa282237cb602af1e17bc55005b5d3592d9b6a27ec37c2bc03386a28ff4d",
+      "jurisdiction": "",
+      "kind": "law"
+    },
+    "E-3f4110a6b699152a7bf2": {
+      "id": "E-3f4110a6b699152a7bf2",
+      "document_identity": "law:user-b32112d4e3f3739d::unknown:8e1aaa282237cb60",
+      "document_title": "가상 돌봄지원법",
+      "document_id": "user-b32112d4e3f3739d",
+      "version": "",
+      "article": "제5조의2",
+      "article_key": "main:제5조의2",
+      "text": "제5조의2(지원대상) 지방자치단체는 돌봄이 필요한 주민을 지원할 수 있다.",
+      "source_url": "",
+      "retrieved_at": "2026-09-21T17:19:11.601729+00:00",
+      "effective_date": "",
+      "source_state": "user_provided",
+      "version_scope": "unknown",
+      "content_hash": "8e1aaa282237cb602af1e17bc55005b5d3592d9b6a27ec37c2bc03386a28ff4d",
+      "jurisdiction": "",
+      "kind": "law"
+    }
+  },
+  "usage": {
+    "official_api_calls": 0,
+    "official_cache_hits": 0,
+    "llm_calls": 0
+  },
+  "coverage": {
+    "national_exhaustive": false,
+    "baseline_confirmed": true,
+    "source_documents": 3,
+    "modeled_indirect_impacts_exhaustive": false
+  },
+  "privacy": {
+    "user_documents_persisted_by_server": false,
+    "external_llm_requested": false
+  },
+  "warning": "역할별 보조 검토이며 법률전문가 8명의 독립 심사·완벽한 검증을 뜻하지 않습니다."
+}

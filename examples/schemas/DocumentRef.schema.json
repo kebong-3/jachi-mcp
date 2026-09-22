@@ -1,0 +1,50 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "kind": {
+      "default": "ordinance",
+      "enum": [
+        "ordinance",
+        "law"
+      ],
+      "title": "Kind",
+      "type": "string"
+    },
+    "document_id": {
+      "default": "",
+      "maxLength": 24,
+      "pattern": "^\\d*$",
+      "title": "Document Id",
+      "type": "string"
+    },
+    "mst": {
+      "default": "",
+      "maxLength": 24,
+      "pattern": "^\\d*$",
+      "title": "Mst",
+      "type": "string"
+    },
+    "effective_date": {
+      "default": "",
+      "title": "Effective Date",
+      "type": "string"
+    },
+    "title_hint": {
+      "default": "",
+      "maxLength": 300,
+      "title": "Title Hint",
+      "type": "string"
+    },
+    "law_view": {
+      "default": "effective",
+      "enum": [
+        "effective",
+        "promulgated"
+      ],
+      "title": "Law View",
+      "type": "string"
+    }
+  },
+  "title": "DocumentRef",
+  "type": "object"
+}

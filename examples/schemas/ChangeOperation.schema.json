@@ -1,0 +1,53 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "operation": {
+      "enum": [
+        "replace_article",
+        "delete_article",
+        "insert_article"
+      ],
+      "title": "Operation",
+      "type": "string"
+    },
+    "article": {
+      "maxLength": 40,
+      "minLength": 2,
+      "title": "Article",
+      "type": "string"
+    },
+    "expected_text": {
+      "default": "",
+      "maxLength": 30000,
+      "title": "Expected Text",
+      "type": "string"
+    },
+    "new_text": {
+      "default": "",
+      "maxLength": 30000,
+      "title": "New Text",
+      "type": "string"
+    },
+    "reason": {
+      "maxLength": 3000,
+      "minLength": 2,
+      "title": "Reason",
+      "type": "string"
+    },
+    "evidence_ids": {
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 20,
+      "title": "Evidence Ids",
+      "type": "array"
+    }
+  },
+  "required": [
+    "operation",
+    "article",
+    "reason"
+  ],
+  "title": "ChangeOperation",
+  "type": "object"
+}

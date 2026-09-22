@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "jachi-ordinance-review": {
+      "command": "C:/PATH/TO/Python/python.exe",
+      "args": ["C:/PATH/TO/jachi-mcp-v2.0.0-rc.1/jachibeopgyu_mcp.py"],
+      "env": {
+        "LAW_OC": "본인_API_인증값_입력",
+        "ALLOW_EXTERNAL_LLM": "false"
+      }
+    }
+  }
+}

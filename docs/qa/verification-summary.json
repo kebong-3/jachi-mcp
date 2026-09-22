@@ -1,0 +1,32 @@
+{
+  "artifact_version": "2.0.0-rc.1",
+  "verification_date": "2026-09-22",
+  "python": "3.13.5",
+  "passed_tests": 121,
+  "skipped_modules": 1,
+  "unexecuted_sdk_test_functions": 4,
+  "pytest_log": "docs/qa/pytest-log.txt",
+  "compileall": "passed",
+  "demo_roles_completed": [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A5",
+    "A6",
+    "A7",
+    "A8"
+  ],
+  "demo_usage": {
+    "official_api_calls": 0,
+    "official_cache_hits": 0,
+    "llm_calls": 0
+  },
+  "live_official_api_tested": false,
+  "live_gemini_tested": false,
+  "mcp_sdk_installed": false,
+  "deployed": false,
+  "scheduler_installed": false,
+  "legal_approval": false,
+  "original_zip_sha256": "25253d8864a8feac18925c84bd658823414740ed9596c3c29e16d8cbf08c1487"
+}

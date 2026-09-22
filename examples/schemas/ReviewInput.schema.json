@@ -1,0 +1,235 @@
+{
+  "$defs": {
+    "DocumentRef": {
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "default": "ordinance",
+          "enum": [
+            "ordinance",
+            "law"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "document_id": {
+          "default": "",
+          "maxLength": 24,
+          "pattern": "^\\d*$",
+          "title": "Document Id",
+          "type": "string"
+        },
+        "mst": {
+          "default": "",
+          "maxLength": 24,
+          "pattern": "^\\d*$",
+          "title": "Mst",
+          "type": "string"
+        },
+        "effective_date": {
+          "default": "",
+          "title": "Effective Date",
+          "type": "string"
+        },
+        "title_hint": {
+          "default": "",
+          "maxLength": 300,
+          "title": "Title Hint",
+          "type": "string"
+        },
+        "law_view": {
+          "default": "effective",
+          "enum": [
+            "effective",
+            "promulgated"
+          ],
+          "title": "Law View",
+          "type": "string"
+        }
+      },
+      "title": "DocumentRef",
+      "type": "object"
+    },
+    "UserText": {
+      "additionalProperties": false,
+      "properties": {
+        "title": {
+          "maxLength": 300,
+          "minLength": 1,
+          "title": "Title",
+          "type": "string"
+        },
+        "text": {
+          "maxLength": 160000,
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        },
+        "jurisdiction": {
+          "default": "",
+          "maxLength": 120,
+          "title": "Jurisdiction",
+          "type": "string"
+        },
+        "kind": {
+          "default": "draft",
+          "enum": [
+            "ordinance",
+            "law",
+            "draft"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "source_url": {
+          "default": "",
+          "maxLength": 2000,
+          "title": "Source Url",
+          "type": "string"
+        }
+      },
+      "required": [
+        "title",
+        "text"
+      ],
+      "title": "UserText",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "project": {
+      "description": "공개 가능한 사업 목적·대상·지원방법. 개인정보·비공개자료 금지",
+      "maxLength": 16000,
+      "minLength": 2,
+      "title": "Project",
+      "type": "string"
+    },
+    "jurisdiction": {
+      "maxLength": 120,
+      "minLength": 2,
+      "title": "Jurisdiction",
+      "type": "string"
+    },
+    "as_of": {
+      "format": "date",
+      "title": "As Of",
+      "type": "string"
+    },
+    "topic": {
+      "default": "",
+      "maxLength": 150,
+      "title": "Topic",
+      "type": "string"
+    },
+    "search_terms": {
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 5,
+      "title": "Search Terms",
+      "type": "array"
+    },
+    "baseline": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/DocumentRef"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "comparisons": {
+      "items": {
+        "$ref": "#/$defs/DocumentRef"
+      },
+      "maxItems": 12,
+      "title": "Comparisons",
+      "type": "array"
+    },
+    "parents": {
+      "items": {
+        "$ref": "#/$defs/DocumentRef"
+      },
+      "maxItems": 10,
+      "title": "Parents",
+      "type": "array"
+    },
+    "old_parent": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/DocumentRef"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "new_parent": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/DocumentRef"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "provided_documents": {
+      "items": {
+        "$ref": "#/$defs/UserText"
+      },
+      "maxItems": 12,
+      "title": "Provided Documents",
+      "type": "array"
+    },
+    "mode": {
+      "default": "review",
+      "enum": [
+        "review",
+        "compare",
+        "enact",
+        "amend",
+        "impact"
+      ],
+      "title": "Mode",
+      "type": "string"
+    },
+    "auto_search": {
+      "default": true,
+      "title": "Auto Search",
+      "type": "boolean"
+    },
+    "reasoning": {
+      "default": "rules",
+      "enum": [
+        "rules",
+        "gemini"
+      ],
+      "title": "Reasoning",
+      "type": "string"
+    },
+    "allow_external_llm": {
+      "default": false,
+      "title": "Allow External Llm",
+      "type": "boolean"
+    },
+    "budget_calls": {
+      "default": 36,
+      "maximum": 80,
+      "minimum": 1,
+      "title": "Budget Calls",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "project",
+    "jurisdiction"
+  ],
+  "title": "ReviewInput",
+  "type": "object"
+}

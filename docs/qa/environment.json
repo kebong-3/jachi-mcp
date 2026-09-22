@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0-rc.1",
+  "packages": {
+    "httpx": "0.28.1",
+    "pydantic": "2.13.4",
+    "defusedxml": "0.7.1",
+    "mcp": "not_installed",
+    "uvicorn": "0.48.0"
+  },
+  "law_oc_configured": false,
+  "gemini_configured": false,
+  "http_configuration": "configuration_valid",
+  "live_api_tested": false,
+  "secrets_printed": false
+}

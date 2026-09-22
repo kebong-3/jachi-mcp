@@ -1,0 +1,16 @@
+{
+  "watch": [
+    {
+      "kind": "law",
+      "document_id": "001656",
+      "title_hint": "지방자치법"
+    },
+    {
+      "kind": "law",
+      "document_id": "001656",
+      "title_hint": "지방자치법",
+      "law_view": "promulgated"
+    }
+  ],
+  "ordinances": []
+}

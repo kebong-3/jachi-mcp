@@ -1,0 +1,14 @@
+{
+  "project": "[사업 목적·대상·수단을 작성]",
+  "jurisdiction": "광주광역시 서구",
+  "topic": "[정식 조례명 또는 주제]",
+  "auto_search": true,
+  "search_terms": [
+    "[주제어]"
+  ],
+  "mode": "review",
+  "reasoning": "rules",
+  "baseline": null,
+  "comparisons": [],
+  "parents": []
+}
