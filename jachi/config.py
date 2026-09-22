@@ -27,6 +27,22 @@ class Settings:
     allowed_origins: tuple[str, ...] = ("http://localhost:*", "http://127.0.0.1:*")
     api_token: str = ""
     public_read_only: bool = False
+    # Direct Settings() callers retain the legacy auto policy; the public
+    # distribution's environment entry point explicitly defaults to "none".
+    auth_mode: str = "auto"
+    allow_public_llm: bool = False
+
+    @property
+    def requires_auth(self) -> bool:
+        return self.auth_mode == "bearer" or (self.auth_mode == "auto" and bool(self.api_token))
+
+    @property
+    def authentication(self) -> str:
+        return "bearer" if self.requires_auth else "none"
+
+    @property
+    def tool_profile(self) -> str:
+        return "read_only" if self.public_read_only else "full"
 
     @classmethod
     def from_env(cls) -> "Settings":
@@ -45,15 +61,21 @@ class Settings:
                    host=os.getenv("MCP_HOST", "0.0.0.0" if render else "127.0.0.1"),
                    port=int(os.getenv("PORT", "8000")), allowed_hosts=allowed,
                    allowed_origins=origins, api_token=os.getenv("MCP_API_TOKEN", ""),
-                   public_read_only=enabled("MCP_PUBLIC_READ_ONLY"))
+                   public_read_only=enabled("MCP_PUBLIC_READ_ONLY"),
+                   auth_mode=os.getenv("MCP_AUTH_MODE", "none").strip().lower(),
+                   allow_public_llm=enabled("ALLOW_PUBLIC_LLM"))
 
     def check_http(self) -> None:
+        if self.auth_mode not in {"none", "bearer", "auto"}:
+            raise ValueError("MCP_AUTH_MODE는 none, bearer, auto 중 하나여야 합니다.")
         if not self.allowed_hosts or "*" in self.allowed_hosts or "*" in self.allowed_origins:
             raise ValueError("ALLOWED_HOSTS/ALLOWED_ORIGINS에 전체 허용 '*'를 사용하지 마세요.")
+        if self.requires_auth and len(self.api_token) < 32:
+            raise ValueError("Bearer 모드의 MCP_API_TOKEN은 32자 이상의 무작위 비밀값이어야 합니다.")
         if self.host not in {"127.0.0.1", "localhost", "::1"}:
-            if not self.api_token and not self.public_read_only:
-                raise ValueError("외부 HTTP는 MCP_API_TOKEN 또는 명시적인 MCP_PUBLIC_READ_ONLY=true가 필요합니다.")
-            if self.api_token and len(self.api_token) < 32:
-                raise ValueError("MCP_API_TOKEN은 32자 이상의 무작위 비밀값이어야 합니다.")
+            if self.auth_mode == "auto" and not self.api_token and not self.public_read_only:
+                raise ValueError("공개 운영은 MCP_AUTH_MODE=none, 인증 운영은 MCP_AUTH_MODE=bearer와 MCP_API_TOKEN을 설정하세요.")
         if self.public_read_only and self.allow_llm:
-            raise ValueError("인증 없는 공개 모드에서는 유료 LLM 실행을 허용하지 않습니다.")
+            raise ValueError("읽기 전용 프로필에서는 외부 LLM 실행을 허용하지 않습니다.")
+        if not self.requires_auth and self.allow_llm and not self.allow_public_llm:
+            raise ValueError("인증 없는 서버의 외부 LLM은 기본 차단됩니다. ALLOW_EXTERNAL_LLM=false를 사용하거나 운영자가 비용·전송 위험을 검토한 후 ALLOW_PUBLIC_LLM=true를 명시하세요.")

@@ -8,11 +8,13 @@ services:
     envVars:
       - key: LAW_OC
         sync: false
-      - key: MCP_API_TOKEN
-        generateValue: true
+      - key: MCP_AUTH_MODE
+        value: "none"
       - key: MCP_HOST
         value: 0.0.0.0
       - key: MCP_PUBLIC_READ_ONLY
         value: "false"
       - key: ALLOW_EXTERNAL_LLM
+        value: "false"
+      - key: ALLOW_PUBLIC_LLM
         value: "false"

@@ -1,5 +1,6 @@
 """Local/HTTP boundary controls, independent of MCP SDK for testability.
-Static bearer != OAuth2.1. Use an OAuth gateway where required by the client.
+Authentication is independent of the tool profile. In explicit none mode,
+legacy bearer values are ignored; Host/Origin, size and rate checks remain.
 """
 from __future__ import annotations
 import hmac
@@ -46,7 +47,7 @@ class HTTPGuard:
             return await reject(400,'인증정보를 URL에 넣지 마세요. 서버 환경변수·Authorization 헤더를 사용하세요.')
         if scope.get('path')=='/health' and scope.get('method')=='GET':
             return await self.app(scope,receive,send)
-        if self.settings.api_token:
+        if self.settings.requires_auth:
             received=headers.get(b'authorization',b'')
             expected=('Bearer '+self.settings.api_token).encode('utf-8')
             if not hmac.compare_digest(received,expected):return await reject(401,'인증 필요')

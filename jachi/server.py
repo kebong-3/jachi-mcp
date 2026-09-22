@@ -56,7 +56,8 @@ INSTRUCTIONS='''공무원 조례 검토 보조 서버. 자료의 source_state·�
 타 지자체 사례는 우리 기관의 권한·대상·재정·입법 필요성을 증명하지 않는다.
 현행/시행예정/역사적 버전, 사실/검토후보/미확인 사항을 분리하고 근거 ID와 원문을 제시한다.
 일반 작업은 검색→공식 식별자 선택→jachi_review_project. 변경 분석은 구·신 버전 모두 확보.
-외부 모델은 명시적 동의와 서버 허용이 모두 필요. 최종 법무심사·의결을 대체하지 않는다.'''
+외부 모델은 명시적 동의와 서버 허용이 모두 필요. 최종 법무심사·의결을 대체하지 않는다.
+공개 서버에는 개인정보·비공개 내부자료·인증키를 입력하지 않는다.'''
 
 
 TOOL_HELP={
@@ -104,18 +105,29 @@ def build_server(settings:Settings|None=None,*,http:bool=False):
     @mcp.custom_route('/health',methods=['GET'])
     async def health(request):
         return JSONResponse({'status':'process_ready','version':__version__,
+                             'authentication':settings.authentication,'tool_profile':settings.tool_profile,
+                             'mcp_endpoint':'/mcp','tool_count':12 if settings.public_read_only else 16,
                              'official_api_connected':'not_checked','legal_validation':'not_a_legal_opinion'})
+    @mcp.custom_route('/',methods=['GET'])
+    async def index(request):
+        return JSONResponse({'service':'조례검토·입법지원 MCP','version':__version__,
+                             'authentication':settings.authentication,'tool_profile':settings.tool_profile,
+                             'mcp_endpoint':'/mcp','health_endpoint':'/health',
+                             'notice':'MCP 연결 주소에는 /mcp를 붙이세요. 개인정보·비공개 자료·인증키 입력 금지.'})
     @tool('jachi_health','설정·기능 상태')
     async def jachi_health()->dict:
         return {'version':__version__,'law_credential_configured':bool(settings.law_oc and settings.law_oc!='test'),
                 'llm_enabled':settings.allow_llm,'llm_model_configured':bool(settings.gemini_model),
+                'authentication':settings.authentication,'tool_profile':settings.tool_profile,
+                'tool_count':12 if settings.public_read_only else 16,
                 'agents':len(ROLES),'live_connectivity':'not_checked','credential_values_disclosed':False}
     @tool('jachi_workflow_guide','8역할 검토 흐름과 입력 안내')
     async def jachi_workflow_guide()->dict:
         return {'instructions':INSTRUCTIONS,'agents':[{'id':i,'name':n,'goal':g} for i,n,g in ROLES],
                 'review_input_schema':ReviewInput.model_json_schema(),
                 'recommended_sequence':['search','select_official_ids','review_project','verify_versions','draft_amendment','human_review'],
-                'public_mode':settings.public_read_only}
+                'public_mode':not settings.requires_auth,'public_read_only':settings.public_read_only,
+                'authentication':settings.authentication,'tool_profile':settings.tool_profile}
     @tool('jachi_search_ordinances','자치법규 검색·수집범위 표시')
     async def jachi_search_ordinances(params:SearchInput)->dict:
         async def action(c):
@@ -200,7 +212,8 @@ def build_server(settings:Settings|None=None,*,http:bool=False):
             docs=[await c.get_document(r) for r in ordinances]
             return amendment_impact(a,b,docs,asdate(as_of))
         return await run(action)
-    # No submission/private-text endpoints in explicitly public, unauthenticated demo profile.
+    # Tool profile is independent of authentication. Public full mode retains all
+    # 16 tools. These generate review results, not legal submissions or file writes.
     if not settings.public_read_only:
         @tool('jachi_review_project','8역할 사업·조례 제개정 종합 검토')
         async def jachi_review_project(params:ReviewInput)->dict:
